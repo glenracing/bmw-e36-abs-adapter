@@ -642,6 +642,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:R"
 			(pin_numbers
 				(hide yes)
@@ -1198,16 +1364,28 @@
 		(uuid "5cb0e35e-f65a-472d-9cca-d4594db83bcd")
 	)
 	(junction
+		(at 243.84 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d00aabd-4a2d-42b4-a281-c84a15d0144a")
+	)
+	(junction
 		(at 187.96 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e5a3a60-892a-4810-ab60-5aebe0d2cbb9")
 	)
 	(junction
-		(at 245.11 153.67)
+		(at 237.49 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7dca30e1-d7de-422a-84f6-a9ba2688b47f")
+		(uuid "34b1c723-ada4-46fd-93c4-a254b3ba3984")
+	)
+	(junction
+		(at 237.49 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92bdd008-8e25-47f1-a136-b10931a67cd2")
 	)
 	(junction
 		(at 182.88 151.13)
@@ -1216,22 +1394,10 @@
 		(uuid "9781c373-9e92-43dc-b6a8-8c51952c82c3")
 	)
 	(junction
-		(at 213.36 140.97)
+		(at 243.84 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e0cddc6d-bd0f-4ce1-90fb-73e24c4914e6")
-	)
-	(junction
-		(at 245.11 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efca678b-7984-4bee-902c-8c7337f59555")
-	)
-	(junction
-		(at 213.36 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9339228-db37-43a4-bb31-a2417d643531")
+		(uuid "d569dd3c-319c-46de-bceb-561b53c8cbba")
 	)
 	(no_connect
 		(at 190.5 140.97)
@@ -1239,7 +1405,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 153.67) (xy 213.36 153.67)
+			(xy 210.82 153.67) (xy 237.49 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1249,17 +1415,27 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 151.13) (xy 245.11 153.67)
+			(xy 243.84 135.89) (xy 243.84 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06a4cf1d-dd26-4b6b-bf56-dd14ccb38862")
+		(uuid "07bfd51a-53ff-4374-8276-5086b1b2d190")
 	)
 	(wire
 		(pts
-			(xy 245.11 153.67) (xy 250.19 153.67)
+			(xy 237.49 153.67) (xy 237.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148bec86-b8f6-47c9-b2f6-5a07e883a30d")
+	)
+	(wire
+		(pts
+			(xy 243.84 157.48) (xy 248.92 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1279,6 +1455,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 144.78) (xy 236.22 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2751b7ad-5d1c-4b12-bf97-c7cee196a5b1")
+	)
+	(wire
+		(pts
 			(xy 187.96 153.67) (xy 187.96 156.21)
 		)
 		(stroke
@@ -1289,7 +1475,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 140.97) (xy 210.82 140.97)
+			(xy 243.84 144.78) (xy 243.84 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2776e6-cb26-43d6-bbb6-960191bd209d")
+	)
+	(wire
+		(pts
+			(xy 210.82 140.97) (xy 237.49 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1299,43 +1495,33 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 140.97) (xy 245.11 143.51)
+			(xy 243.84 157.48) (xy 243.84 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "326bb651-a780-4e43-81d0-b47ac25a06c0")
+		(uuid "5e52884e-037b-4136-ba5e-3634adfc8867")
 	)
 	(wire
 		(pts
-			(xy 213.36 149.86) (xy 215.9 149.86)
+			(xy 237.49 140.97) (xy 237.49 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fe9af91-99df-4884-8245-1be17dffe130")
+		(uuid "73ab3ec2-2bdc-48c2-b793-fe6172448850")
 	)
 	(wire
 		(pts
-			(xy 215.9 144.78) (xy 213.36 144.78)
+			(xy 237.49 149.86) (xy 237.49 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74fc1807-22f1-49b7-af8d-dd39b20b8c54")
-	)
-	(wire
-		(pts
-			(xy 213.36 153.67) (xy 213.36 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ba301c4-5692-4a22-94e4-ab9ef729ca81")
+		(uuid "78140f25-8a4b-4335-b379-fc4292f39f61")
 	)
 	(wire
 		(pts
@@ -1349,6 +1535,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 135.89) (xy 243.84 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957e6628-4730-4285-b47b-f5186aa81f53")
+	)
+	(wire
+		(pts
 			(xy 187.96 153.67) (xy 190.5 153.67)
 		)
 		(stroke
@@ -1359,27 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 153.67) (xy 245.11 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dd4f147-ddd3-459f-8c04-880b6292cd43")
-	)
-	(wire
-		(pts
-			(xy 213.36 144.78) (xy 213.36 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5fbcd9d-c092-4c3b-ae5f-a6f988cfd5b4")
-	)
-	(wire
-		(pts
-			(xy 245.11 140.97) (xy 250.19 140.97)
+			(xy 243.84 135.89) (xy 248.92 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1389,13 +1565,13 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 140.97) (xy 245.11 140.97)
+			(xy 236.22 149.86) (xy 237.49 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1dcb702-dbc4-463b-b149-bce1d409a0d6")
+		(uuid "b12d920f-653d-40f9-b1ea-73932c34f128")
 	)
 	(wire
 		(pts
@@ -1419,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 147.32) (xy 227.33 147.32)
+			(xy 226.06 147.32) (xy 224.79 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1459,6 +1635,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 140.97) (xy 237.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53dd97a-1022-4260-b3fb-5527fef01f30")
+	)
+	(wire
+		(pts
 			(xy 182.88 151.13) (xy 190.5 151.13)
 		)
 		(stroke
@@ -1477,9 +1663,19 @@
 		)
 		(uuid "f76fcf82-2687-4124-86ef-26fc2ba05d89")
 	)
+	(wire
+		(pts
+			(xy 237.49 157.48) (xy 243.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff353790-0a0c-42d8-a216-27badf95bc02")
+	)
 	(hierarchical_label "CAN_L"
 		(shape bidirectional)
-		(at 250.19 153.67 0)
+		(at 248.92 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1491,7 +1687,7 @@
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
-		(at 250.19 140.97 0)
+		(at 248.92 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1617,7 +1813,8 @@
 	)
 	(symbol
 		(lib_id "symbols:SZNUP2105L")
-		(at 220.98 147.32 90)
+		(at 231.14 147.32 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1627,7 +1824,7 @@
 		(dnp no)
 		(uuid "07dc2c8d-4c4f-415e-8ec0-4ce96bf8a5b5")
 		(property "Reference" "D5"
-			(at 224.79 143.51 90)
+			(at 227.33 143.51 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1638,7 +1835,7 @@
 			)
 		)
 		(property "Value" "SZNUP2105LT3G"
-			(at 224.79 151.13 90)
+			(at 227.33 151.13 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1649,7 +1846,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 222.25 141.605 0)
+			(at 229.87 141.605 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1661,7 +1858,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nup2105l-d.pdf"
-			(at 217.805 144.145 0)
+			(at 234.315 144.145 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,7 +1869,7 @@
 			)
 		)
 		(property "Description" "Dual Line CAN Bus Protector, 24Vrwm, Automotive Grade"
-			(at 220.98 147.32 0)
+			(at 231.14 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1683,7 +1880,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 220.98 147.32 90)
+			(at 231.14 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1694,7 +1891,7 @@
 			)
 		)
 		(property "Part Number" "SZNUP2105LT3G"
-			(at 220.98 147.32 90)
+			(at 231.14 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1795,6 +1992,89 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/1e118eea-b0b6-4052-9f03-bc9e02cc6f9e"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:Jumper_2_Open")
+		(at 243.84 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19a16b0c-4276-48ec-9c69-3d2f7d415dcc")
+		(property "Reference" "JP3"
+			(at 246.38 151.1299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 246.38 152.3999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 243.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3d834d0-8c8a-4215-a784-a99a96b802b7")
+		)
+		(pin "2"
+			(uuid "08b49bd1-3b31-45b9-8f89-d83a9022beee")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/1e118eea-b0b6-4052-9f03-bc9e02cc6f9e"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -1959,7 +2239,8 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 227.33 147.32 90)
+		(at 224.79 147.32 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1970,7 +2251,7 @@
 		(fields_autoplaced yes)
 		(uuid "5704d1ab-8374-4590-b5d7-ab17b9d0293b")
 		(property "Reference" "#PWR033"
-			(at 233.68 147.32 0)
+			(at 218.44 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1981,7 +2262,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 147.3199 90)
+			(at 220.98 147.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1992,7 +2273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 147.32 0)
+			(at 224.79 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2003,7 +2284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 147.32 0)
+			(at 224.79 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,7 +2295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 147.32 0)
+			(at 224.79 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2117,18 +2398,18 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 245.11 147.32 0)
+		(at 243.84 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "999ad45f-9f49-4e1c-8e29-f344287ce474")
 		(property "Reference" "R5"
-			(at 247.65 146.0499 0)
+			(at 246.38 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2139,7 +2420,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 247.65 148.5899 0)
+			(at 246.38 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2150,7 +2431,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 243.332 147.32 90)
+			(at 242.062 140.97 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2161,7 +2442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 147.32 0)
+			(at 243.84 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2172,7 +2453,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 245.11 147.32 0)
+			(at 243.84 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
