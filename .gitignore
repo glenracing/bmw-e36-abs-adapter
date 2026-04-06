@@ -1,2 +1,4 @@
-kicad/bmw-e36-abs-adapter-backups
+kicad/*-backups
 kicad/.history
+*.bak
+*.lck
