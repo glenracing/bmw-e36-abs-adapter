@@ -1461,16 +1461,6 @@
 	)
 	(wire
 		(pts
-			(xy 0.0762 0.0762) (xy 20.3962 0.0762)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c02ae67c-3bf3-4e2c-9b38-de1399570e8a")
-	)
-	(wire
-		(pts
 			(xy 177.8 91.44) (xy 177.8 93.98)
 		)
 		(stroke
@@ -2418,6 +2408,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 177.8 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF2150V"
+			(at 177.8 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "018b7e61-b90e-4314-a17e-f5d2d5f7f50a")
 		)
@@ -2500,6 +2512,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 177.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1870V"
+			(at 177.8 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ebba15d3-2e7a-4d54-8711-46f4d36041ea")
 		)
@@ -2571,6 +2605,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 142.24 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 142.24 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1300V"
+			(at 142.24 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2662,6 +2718,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 177.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1270V"
+			(at 177.8 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "866d40f2-c00f-45fd-8b4c-015ce459aa36")
 		)
@@ -2734,6 +2812,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 177.8 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1270V"
 			(at 177.8 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3159,6 +3259,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 177.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF2490V"
+			(at 177.8 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "980353f3-8f94-4039-b781-04c0429f13e3")
 		)
@@ -3341,6 +3463,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 142.24 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 142.24 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1300V"
+			(at 142.24 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3541,6 +3685,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 142.24 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1300V"
+			(at 142.24 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "baf1a6c9-36f8-4212-8bca-dff61bcba825")
 		)
@@ -3613,6 +3779,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 177.8 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1270V"
 			(at 177.8 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -3703,6 +3891,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 142.24 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1300V"
+			(at 142.24 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba676881-1763-4e01-9f65-0ec565dab0b4")
 		)
@@ -3783,6 +3993,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 142.24 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1300V"
+			(at 142.24 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d5a8872-f595-406e-af4f-547e64268b5b")
 		)
@@ -3804,7 +4036,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
@@ -3855,6 +4087,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 190.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 190.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GCJ188R71H104KA12D"
 			(at 190.5 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3936,6 +4190,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 142.24 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 142.24 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1300V"
+			(at 142.24 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -244,7 +244,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|2921000|1079500|93fd72e6-0366-4ac4-859e-7d568307a2ec|00000000-0000-0000-0000-000000000000|||",
+        "Adjusted symbol width to read pin names"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -450,7 +455,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -536,21 +541,9 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
-          "label": "Reference",
-          "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
-          "label": "Value",
-          "name": "Value",
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
           "show": true
         },
         {
@@ -560,16 +553,28 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
           "show": true
         },
         {
           "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -581,13 +586,37 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -632,7 +661,7 @@
         "uuid": "325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG1-3,#PWR2-3,#PWR9,#PWR16,#PWR39,#PWR41,#PWR43,#PWR48,#PWR53-55",
     "variants": []
   },
   "sheets": [

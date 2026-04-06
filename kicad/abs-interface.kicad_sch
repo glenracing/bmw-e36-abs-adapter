@@ -150,7 +150,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:+3V3"
+		(symbol "symbols:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -175,7 +175,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -207,7 +207,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -229,7 +229,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -267,7 +267,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2026,7 +2026,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2105,7 +2105,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2480,6 +2480,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 259.08 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1002V"
+			(at 259.08 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0144749c-f8e6-4b8e-86b4-66098be2b248")
 		)
@@ -2580,7 +2602,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2648,85 +2670,6 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
 					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:+3V3")
-		(at 140.97 91.44 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ce10b95-3460-4ab2-b5be-09e5f0900d08")
-		(property "Reference" "#PWR039"
-			(at 140.97 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 140.97 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 140.97 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3c5b86a4-1576-42db-8c6c-b8792be87bfc")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2867,6 +2810,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 140.97 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 140.97 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1002V"
 			(at 140.97 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3069,6 +3034,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 287.02 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1002V"
+			(at 287.02 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "181afac6-877c-4866-bfb1-a216c609aeb3")
 		)
@@ -3236,6 +3223,84 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:+3.3V")
+		(at 160.02 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56ecb469-b470-4108-b920-6a066bf2ce20")
+		(property "Reference" "#PWR043"
+			(at 160.02 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 160.02 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e013d5ec-45ac-44df-a3cd-227000e566ea")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3527,6 +3592,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 160.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1002V"
+			(at 160.02 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "00d563ad-7e89-49f2-8369-33be91e86cda")
 		)
@@ -3537,84 +3624,6 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
 					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:+3V3")
-		(at 267.97 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61ef81f6-3ec4-4dc7-ab68-930302ca702c")
-		(property "Reference" "#PWR048"
-			(at 267.97 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 267.97 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 267.97 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "984f4e18-2081-4db3-8b79-f057877827c7")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3677,6 +3686,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 267.97 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 267.97 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1002V"
 			(at 267.97 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4079,7 +4110,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4147,84 +4178,6 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
 					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:+3V3")
-		(at 140.97 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "964d114d-6572-47d9-997b-ca0041709fb9")
-		(property "Reference" "#PWR041"
-			(at 140.97 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 140.97 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 140.97 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6e4c7c7-6bc4-4512-90ae-1b6c282e58a7")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4314,7 +4267,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4388,9 +4341,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:+3V3")
-		(at 160.02 97.79 0)
-		(mirror y)
+		(lib_id "symbols:+3.3V")
+		(at 140.97 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4399,9 +4351,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a29c45ce-d5fa-4e1e-9945-240e3c32b595")
-		(property "Reference" "#PWR043"
-			(at 160.02 101.6 0)
+		(uuid "a33452cc-6cbf-4670-901f-2c380fbf5cde")
+		(property "Reference" "#PWR041"
+			(at 140.97 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4411,8 +4363,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 160.02 92.71 0)
+		(property "Value" "+3.3V"
+			(at 140.97 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4422,7 +4374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 97.79 0)
+			(at 140.97 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4433,7 +4385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 97.79 0)
+			(at 140.97 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4443,8 +4395,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 160.02 97.79 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 140.97 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4455,12 +4407,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbe1a854-b32e-45a3-bb1d-863b550807ce")
+			(uuid "33ac323a-88b1-4a58-89c8-20a3a4f8c2c6")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4577,6 +4529,84 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:+3.3V")
+		(at 140.97 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b534a65d-7e55-49e4-8c55-af8eafae8d54")
+		(property "Reference" "#PWR039"
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 140.97 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 140.97 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76f6024a-327d-4321-bdd5-b17bce834275")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:R")
 		(at 160.02 147.32 0)
 		(unit 1)
@@ -4643,6 +4673,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 160.02 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1002V"
+			(at 160.02 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5dfc6578-6202-47fc-9299-643dd2e090ae")
 		)
@@ -4665,7 +4717,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4805,6 +4857,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 140.97 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1002V"
+			(at 140.97 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a36cc94f-5edd-457c-bf69-7ed40111be20")
 		)
@@ -4877,6 +4951,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 132.08 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 132.08 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ERJ-3EKF1002V"
 			(at 132.08 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -5127,7 +5223,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5305,13 +5401,91 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:+3.3V")
+		(at 267.97 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1e97104-e7c2-4ceb-affd-9c6655bfc355")
+		(property "Reference" "#PWR048"
+			(at 267.97 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 267.97 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 267.97 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a83a064-6ac0-4d0e-ae7c-e54d591a86b6")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:TestPoint")
 		(at 278.13 119.38 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
