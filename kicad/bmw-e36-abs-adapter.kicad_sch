@@ -17522,7 +17522,7 @@
 				(justify left top)
 			)
 		)
-		(pin "K_LINE" bidirectional
+		(pin "K_LINE_12V" bidirectional
 			(at 184.15 240.03 180)
 			(uuid "12e8b9fb-7d63-4a11-8c2b-563e76a0d5c2")
 			(effects
@@ -17562,7 +17562,7 @@
 				(justify right)
 			)
 		)
-		(pin "L_LINE" output
+		(pin "L_LINE_12V" output
 			(at 184.15 242.57 180)
 			(uuid "fc63dcad-c07a-4329-a1d2-84f9ae35f9be")
 			(effects
