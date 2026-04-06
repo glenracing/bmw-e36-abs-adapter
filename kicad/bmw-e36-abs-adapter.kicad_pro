@@ -525,7 +525,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "../release/bmw-e36-abs-adapter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -661,7 +661,7 @@
         "uuid": "325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
       }
     ],
-    "used_designators": "#FLG1-3,#PWR2-3,#PWR9,#PWR16,#PWR39,#PWR41,#PWR43,#PWR48,#PWR53-55",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
