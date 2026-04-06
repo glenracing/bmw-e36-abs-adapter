@@ -11,6 +11,161 @@
 		(comment 1 "Ian Glen <ian@ianglen.me>")
 	)
 	(lib_symbols
+		(symbol "symbols:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:D_Zener"
 			(pin_numbers
 				(hide yes)
@@ -558,13 +713,19 @@
 	)
 	(text "5V INPUT = 3.205 V @ ADC"
 		(exclude_from_sim no)
-		(at 176.53 127 0)
+		(at 148.59 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "6d5bec05-56e5-4ebd-9554-67ed86b7696d")
+	)
+	(junction
+		(at 205.74 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "054a7f51-e58b-436d-af5d-188a4be72534")
 	)
 	(junction
 		(at 205.74 118.11)
@@ -591,16 +752,22 @@
 		(uuid "4ef62816-ecf7-4c7b-898f-580674ba5b69")
 	)
 	(junction
+		(at 190.5 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c703bd8-8f1b-4b0d-9c32-970e3cd496b8")
+	)
+	(junction
+		(at 190.5 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9120128d-68df-49ec-8d75-85885af33363")
+	)
+	(junction
 		(at 205.74 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "632bef03-03db-44ef-9dc5-0254c8789fec")
-	)
-	(junction
-		(at 205.74 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db3a42b7-3010-41a4-92f1-3c91ca922090")
+		(uuid "d8d3ca8f-055b-4044-87d0-9154c523fba2")
 	)
 	(wire
 		(pts
@@ -624,13 +791,53 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 107.95) (xy 196.85 107.95)
+			(xy 176.53 107.95) (xy 180.34 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a1b12f4-e361-43c9-89f7-d9893830f9a3")
+	)
+	(wire
+		(pts
+			(xy 190.5 107.95) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f5ac08-a5ff-480b-8154-8a4c560a1308")
+	)
+	(wire
+		(pts
+			(xy 190.5 153.67) (xy 190.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a85e60c-64cb-453e-a73a-c7aac955ce87")
+	)
+	(wire
+		(pts
+			(xy 187.96 107.95) (xy 190.5 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "357795ec-304c-4772-87c5-6d00ed8b8752")
+	)
+	(wire
+		(pts
+			(xy 190.5 144.78) (xy 190.5 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41552865-aa87-4ffc-894d-e99fa638dd3d")
 	)
 	(wire
 		(pts
@@ -674,7 +881,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 144.78) (xy 205.74 144.78)
+			(xy 201.93 144.78) (xy 205.74 144.78)
 		)
 		(stroke
 			(width 0)
@@ -691,6 +898,16 @@
 			(type default)
 		)
 		(uuid "5737f503-cf86-4943-8638-ae9fc0c0287d")
+	)
+	(wire
+		(pts
+			(xy 190.5 107.95) (xy 194.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a718798-142b-4412-8344-33eca220a07d")
 	)
 	(wire
 		(pts
@@ -714,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 107.95) (xy 205.74 107.95)
+			(xy 201.93 107.95) (xy 205.74 107.95)
 		)
 		(stroke
 			(width 0)
@@ -734,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 144.78) (xy 196.85 144.78)
+			(xy 176.53 144.78) (xy 180.34 144.78)
 		)
 		(stroke
 			(width 0)
@@ -774,6 +991,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 116.84) (xy 190.5 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd78777-ff8f-4dfe-b9c2-020d221a0079")
+	)
+	(wire
+		(pts
 			(xy 205.74 144.78) (xy 205.74 146.05)
 		)
 		(stroke
@@ -781,6 +1008,16 @@
 			(type default)
 		)
 		(uuid "bd7b9ba8-170d-4e5b-a518-be163069f919")
+	)
+	(wire
+		(pts
+			(xy 187.96 144.78) (xy 194.31 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5998a72-3c38-48f0-be22-6286b7901cda")
 	)
 	(wire
 		(pts
@@ -824,7 +1061,7 @@
 	)
 	(hierarchical_label "SENSOR_1_5V"
 		(shape input)
-		(at 191.77 107.95 180)
+		(at 176.53 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -857,7 +1094,7 @@
 	)
 	(hierarchical_label "SENSOR_2_5V"
 		(shape input)
-		(at 191.77 144.78 180)
+		(at 176.53 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -878,7 +1115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04bf78b4-e9bd-4c23-8377-de0396b36084")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 208.28 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -942,7 +1179,171 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "R8")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:C")
+		(at 190.5 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "26985ac9-7efd-4147-8b23-3d6693e75c9a")
+		(property "Reference" "C19"
+			(at 194.31 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 194.31 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 191.4652 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "580ced99-a208-4838-972a-3b344cd51ef0")
+		)
+		(pin "1"
+			(uuid "404b9c12-6c54-4176-a85a-152b74ed11f9")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:C")
+		(at 190.5 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "441d1025-f5c1-41ba-8be9-40d188777809")
+		(property "Reference" "C18"
+			(at 194.31 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 194.31 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 191.4652 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 190.5 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "12adbfb8-1531-4127-9f90-5dd281ea0684")
+		)
+		(pin "1"
+			(uuid "55c314f8-d8f9-477c-943f-3bd401cf8832")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1144,7 +1545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c02e9be-5911-4910-b0f3-856afc1ac7a1")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 208.28 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1208,7 +1609,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1216,7 +1617,7 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 200.66 107.95 90)
+		(at 184.15 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1225,9 +1626,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "850b4464-1777-4d06-9d21-adf8449b7b17")
-		(property "Reference" "R6"
-			(at 200.66 101.6 90)
+		(uuid "6afd06f8-8e84-429a-a12b-f493b15ec3c6")
+		(property "Reference" "R7"
+			(at 184.15 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1236,8 +1637,8 @@
 				)
 			)
 		)
-		(property "Value" "5.6k"
-			(at 200.66 104.14 90)
+		(property "Value" "0"
+			(at 184.15 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1247,7 +1648,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 200.66 109.728 90)
+			(at 184.15 146.558 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1258,7 +1659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 107.95 0)
+			(at 184.15 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1269,7 +1670,87 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 200.66 107.95 0)
+			(at 184.15 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7af8b259-a7af-40bd-b98a-c1c116e6dcd9")
+		)
+		(pin "1"
+			(uuid "1a43326a-62cc-47d1-ad9f-2b93d3a8aba0")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 198.12 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "850b4464-1777-4d06-9d21-adf8449b7b17")
+		(property "Reference" "R8"
+			(at 198.12 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.6k"
+			(at 198.12 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 198.12 109.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 198.12 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1288,7 +1769,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1480,7 +1961,7 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 200.66 144.78 90)
+		(at 198.12 144.78 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1490,8 +1971,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98162dc6-faed-4032-af9b-620f5b622c86")
-		(property "Reference" "R7"
-			(at 200.66 138.43 90)
+		(property "Reference" "R9"
+			(at 198.12 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1501,7 +1982,7 @@
 			)
 		)
 		(property "Value" "5.6k"
-			(at 200.66 140.97 90)
+			(at 198.12 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1511,7 +1992,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 200.66 146.558 90)
+			(at 198.12 146.558 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1522,7 +2003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 144.78 0)
+			(at 198.12 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1533,7 +2014,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 200.66 144.78 0)
+			(at 198.12 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1552,7 +2033,243 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "R7")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:GNDA")
+		(at 190.5 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb66e139-5f54-48d0-9461-084b6d28dacc")
+		(property "Reference" "#PWR035"
+			(at 190.5 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 190.5 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 190.5 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "caa7e8e6-30c1-4c3a-bef7-bb27639ff9f8")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:R")
+		(at 184.15 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df64831d-57e5-4815-888d-ce3d6b3be032")
+		(property "Reference" "R6"
+			(at 184.15 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 184.15 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 184.15 109.728 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a134b63b-d38a-4049-bc01-719220ce8faf")
+		)
+		(pin "1"
+			(uuid "d93e5815-5401-4b7a-86da-a2a1549a8660")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:GNDA")
+		(at 190.5 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edd5f40e-fc64-4727-a43f-f5d37a3704bb")
+		(property "Reference" "#PWR034"
+			(at 190.5 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 190.5 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 190.5 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e7a83c2-80a7-4354-a0e1-664e0813250b")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1570,7 +2287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6bab70f-022e-40cb-b316-bc78975ba3c0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR036"
 			(at 205.74 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -1630,7 +2347,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "#PWR034")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1648,7 +2365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f93af6f9-b399-4e22-8c00-0c97aa112bf1")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR037"
 			(at 205.74 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -1708,7 +2425,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "#PWR035")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)

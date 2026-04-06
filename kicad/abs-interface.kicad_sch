@@ -2190,7 +2190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0659cd82-9529-40f8-9611-7c137119ca54")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR050"
 			(at 287.02 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2250,7 +2250,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR048")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2269,7 +2269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "220968f3-c826-4833-8625-0fa21462acde")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 140.97 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2329,7 +2329,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2347,7 +2347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225f29fe-d987-4559-b17f-8d182c1965be")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 140.97 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -2407,7 +2407,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -2425,7 +2425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "242f5730-e3f4-4fc3-b9e0-0a108e93908a")
-		(property "Reference" "R27"
+		(property "Reference" "R29"
 			(at 256.54 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2489,7 +2489,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2507,7 +2507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31b3f980-c0e2-4e88-bf59-9d86557963d0")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 160.02 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -2567,7 +2567,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2666,7 +2666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ce10b95-3460-4ab2-b5be-09e5f0900d08")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 140.97 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2726,7 +2726,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR037")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2744,7 +2744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42496f84-ec89-44a0-8bf8-b92900769951")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR049"
 			(at 267.97 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -2804,7 +2804,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR047")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2822,7 +2822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "446e7364-2ce9-43dc-b658-dc02ada50587")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 143.51 152.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,7 +2886,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3014,7 +3014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bcfd99e-3c41-440e-92db-a050dd758621")
-		(property "Reference" "R29"
+		(property "Reference" "R31"
 			(at 289.56 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3078,7 +3078,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "R29")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3097,7 +3097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50499af1-8492-4f95-ac92-4dd05e53d35f")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 160.02 127 0)
 			(hide yes)
 			(show_name no)
@@ -3157,7 +3157,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3175,7 +3175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5564709d-fa1d-473a-b56d-3cd489a34c7d")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 198.12 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -3235,7 +3235,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3472,7 +3472,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61b9b1af-fb3b-45d7-a187-aa42c01da267")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 162.56 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3536,7 +3536,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -3554,7 +3554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61ef81f6-3ec4-4dc7-ab68-930302ca702c")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 267.97 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3614,7 +3614,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3632,7 +3632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7abd6d0f-0b34-43a2-bf67-522e0da647f6")
-		(property "Reference" "R28"
+		(property "Reference" "R30"
 			(at 270.51 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3696,7 +3696,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "R28")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3928,7 +3928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84ff654b-e74e-4e74-a1db-ac37af99d474")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 160.02 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -3988,7 +3988,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4006,7 +4006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a392d4c-c1f5-44af-a7ab-f95cc36149e2")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 287.02 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4066,7 +4066,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR049")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4164,7 +4164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "964d114d-6572-47d9-997b-ca0041709fb9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 140.97 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4224,7 +4224,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4242,7 +4242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1cb2f2f-34f1-4bbf-819c-3f99aef1453f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 312.42 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4302,7 +4302,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a29c45ce-d5fa-4e1e-9945-240e3c32b595")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 160.02 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4460,7 +4460,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4588,7 +4588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5597437-b1f1-46f8-a847-1e4e11313c11")
-		(property "Reference" "R26"
+		(property "Reference" "R28"
 			(at 162.56 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4652,7 +4652,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "R26")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -4750,7 +4750,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c971b6e8-8fbe-41e3-be14-5e21b47d83dc")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 143.51 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4814,7 +4814,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4832,7 +4832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4c0e5b2-39cf-4204-a1fc-ac6f4a607da1")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 129.54 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4896,7 +4896,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/764d85a6-8b64-4d79-a3de-d53eaa3c0d1e"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
