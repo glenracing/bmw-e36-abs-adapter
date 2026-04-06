@@ -16008,7 +16008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmw-e36-abs-adapter:Texas_RDN0011B_QFN-FCMOD-11-3.5x4.5mm-P0.5mm_2EP"
 			(at 76.2 184.15 0)
 			(hide yes)
 			(show_name no)

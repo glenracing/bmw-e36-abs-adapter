@@ -2091,7 +2091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmw-e36-abs-adapter:SOP-4_4.4x4.6mm_P2.54mm"
 			(at 154.94 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2791,7 +2791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmw-e36-abs-adapter:SOP-4_4.4x4.6mm_P2.54mm"
 			(at 154.94 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -2902,7 +2902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmw-e36-abs-adapter:SOP-4_4.4x4.6mm_P2.54mm"
 			(at 154.94 127 0)
 			(hide yes)
 			(show_name no)
@@ -3013,7 +3013,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmw-e36-abs-adapter:SOP-4_4.4x4.6mm_P2.54mm"
 			(at 154.94 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -3206,7 +3206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmw-e36-abs-adapter:SOP-4_4.4x4.6mm_P2.54mm"
 			(at 154.94 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3397,7 +3397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bmw-e36-abs-adapter:SOP-4_4.4x4.6mm_P2.54mm"
 			(at 154.94 142.24 0)
 			(hide yes)
 			(show_name no)
