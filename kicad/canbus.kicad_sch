@@ -1188,7 +1188,7 @@
 	)
 	(text "PLACE CLOSE TO VCC"
 		(exclude_from_sim no)
-		(at 196.85 99.06 0)
+		(at 194.31 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1198,40 +1198,40 @@
 		(uuid "5cb0e35e-f65a-472d-9cca-d4594db83bcd")
 	)
 	(junction
-		(at 182.88 151.13)
+		(at 187.96 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09cfd230-4a3d-45fb-b8e1-acd4d8457b6c")
+		(uuid "2e5a3a60-892a-4810-ab60-5aebe0d2cbb9")
 	)
 	(junction
-		(at 213.36 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c43f8bc-c4bf-4a77-a37b-823adb50609b")
-	)
-	(junction
-		(at 243.84 153.67)
+		(at 245.11 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dca30e1-d7de-422a-84f6-a9ba2688b47f")
 	)
 	(junction
+		(at 182.88 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9781c373-9e92-43dc-b6a8-8c51952c82c3")
+	)
+	(junction
 		(at 213.36 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1aefb61-c786-48f3-99ea-101f0da748c4")
+		(uuid "e0cddc6d-bd0f-4ce1-90fb-73e24c4914e6")
 	)
 	(junction
-		(at 187.96 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec702598-1511-4ff2-8c3f-b139583a850a")
-	)
-	(junction
-		(at 243.84 140.97)
+		(at 245.11 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efca678b-7984-4bee-902c-8c7337f59555")
+	)
+	(junction
+		(at 213.36 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9339228-db37-43a4-bb31-a2417d643531")
 	)
 	(no_connect
 		(at 190.5 140.97)
@@ -1249,7 +1249,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 151.13) (xy 243.84 153.67)
+			(xy 245.11 151.13) (xy 245.11 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 153.67) (xy 248.92 153.67)
+			(xy 245.11 153.67) (xy 250.19 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +1299,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 140.97) (xy 243.84 143.51)
+			(xy 245.11 140.97) (xy 245.11 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1316,16 +1316,6 @@
 			(type default)
 		)
 		(uuid "3fe9af91-99df-4884-8245-1be17dffe130")
-	)
-	(wire
-		(pts
-			(xy 213.36 153.67) (xy 243.84 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a2e772f-f2cf-48ba-a06e-d69343e27c2d")
 	)
 	(wire
 		(pts
@@ -1349,23 +1339,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 146.05) (xy 190.5 146.05)
+			(xy 177.8 146.05) (xy 190.5 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f0d28d5-8567-4e57-8781-807f2a0ede10")
-	)
-	(wire
-		(pts
-			(xy 213.36 140.97) (xy 243.84 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80bc62c0-0d72-430f-9e32-757b93032789")
 	)
 	(wire
 		(pts
@@ -1379,6 +1359,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 153.67) (xy 245.11 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dd4f147-ddd3-459f-8c04-880b6292cd43")
+	)
+	(wire
+		(pts
 			(xy 213.36 144.78) (xy 213.36 140.97)
 		)
 		(stroke
@@ -1389,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 140.97) (xy 248.92 140.97)
+			(xy 245.11 140.97) (xy 250.19 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +1389,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 106.68) (xy 212.09 109.22)
+			(xy 213.36 140.97) (xy 245.11 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1dcb702-dbc4-463b-b149-bce1d409a0d6")
+	)
+	(wire
+		(pts
+			(xy 209.55 115.57) (xy 209.55 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 96.52) (xy 212.09 99.06)
+			(xy 209.55 106.68) (xy 209.55 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 153.67) (xy 187.96 153.67)
+			(xy 177.8 153.67) (xy 187.96 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 151.13) (xy 182.88 151.13)
+			(xy 177.8 151.13) (xy 182.88 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +1479,7 @@
 	)
 	(hierarchical_label "CAN_L"
 		(shape bidirectional)
-		(at 248.92 153.67 0)
+		(at 250.19 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 	)
 	(hierarchical_label "CAN_H"
 		(shape bidirectional)
-		(at 248.92 140.97 0)
+		(at 250.19 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1503,7 +1503,7 @@
 	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
-		(at 180.34 153.67 180)
+		(at 177.8 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1515,7 +1515,7 @@
 	)
 	(hierarchical_label "CAN_STANDBY"
 		(shape input)
-		(at 180.34 146.05 180)
+		(at 177.8 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1527,7 +1527,7 @@
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
-		(at 180.34 151.13 180)
+		(at 177.8 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1637,7 +1637,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SZNUP2105L"
+		(property "Value" "SZNUP2105LT3G"
 			(at 224.79 151.13 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1660,7 +1660,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nup2105l-d.pdf"
 			(at 217.805 144.145 0)
 			(hide yes)
 			(show_name no)
@@ -1673,6 +1673,28 @@
 		)
 		(property "Description" "Dual Line CAN Bus Protector, 24Vrwm, Automotive Grade"
 			(at 220.98 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 220.98 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "SZNUP2105LT3G"
+			(at 220.98 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1702,7 +1724,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 212.09 109.22 0)
+		(at 209.55 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1713,7 +1735,7 @@
 		(fields_autoplaced yes)
 		(uuid "15e1cd3a-9374-4aed-98c0-996c4da4ae09")
 		(property "Reference" "#PWR?"
-			(at 212.09 115.57 0)
+			(at 209.55 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1724,7 +1746,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 114.3 0)
+			(at 209.55 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1734,7 +1756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 109.22 0)
+			(at 209.55 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1745,7 +1767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 109.22 0)
+			(at 209.55 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1756,7 +1778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 109.22 0)
+			(at 209.55 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2095,7 +2117,7 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 243.84 147.32 0)
+		(at 245.11 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2106,7 +2128,7 @@
 		(fields_autoplaced yes)
 		(uuid "999ad45f-9f49-4e1c-8e29-f344287ce474")
 		(property "Reference" "R?"
-			(at 246.38 146.0499 0)
+			(at 247.65 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2117,7 +2139,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 246.38 148.5899 0)
+			(at 247.65 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2128,7 +2150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.062 147.32 90)
+			(at 243.332 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2139,7 +2161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 147.32 0)
+			(at 245.11 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2150,7 +2172,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 243.84 147.32 0)
+			(at 245.11 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2177,7 +2199,7 @@
 	)
 	(symbol
 		(lib_id "symbols:+3.3V")
-		(at 212.09 96.52 0)
+		(at 209.55 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2188,7 +2210,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2ae37fb-ddc7-4f0d-9b6c-72f90ccbaa93")
 		(property "Reference" "#PWR?"
-			(at 212.09 100.33 0)
+			(at 209.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2199,7 +2221,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 212.09 91.44 0)
+			(at 209.55 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2209,7 +2231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 96.52 0)
+			(at 209.55 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2220,7 +2242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 96.52 0)
+			(at 209.55 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2231,7 +2253,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 212.09 96.52 0)
+			(at 209.55 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,6 +2341,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 200.66 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "TCAN3404DRQ1"
+			(at 200.66 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "7b6ecac1-af2b-40d7-b261-89187f88866e")
 		)
@@ -2354,7 +2398,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 212.09 102.87 0)
+		(at 209.55 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2365,7 +2409,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdedbd34-cdfc-468e-b3a5-53b5dd9d3054")
 		(property "Reference" "C?"
-			(at 215.9 101.5999 0)
+			(at 213.36 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2376,7 +2420,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 215.9 104.1399 0)
+			(at 213.36 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2387,7 +2431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.0552 106.68 0)
+			(at 210.5152 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2398,7 +2442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 102.87 0)
+			(at 209.55 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2409,7 +2453,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 212.09 102.87 0)
+			(at 209.55 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
