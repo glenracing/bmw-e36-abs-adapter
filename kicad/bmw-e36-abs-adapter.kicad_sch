@@ -11,6 +11,292 @@
 		(comment 1 "Ian Glen <ian@ianglen.me>")
 	)
 	(lib_symbols
+		(symbol "bmw-e36-abs-adapter:TPSM33606S5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPSM33606S5"
+				(at 0 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm33606-q1.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC/DC converter, automotive, 3-36V input, 5V output, 0.6A, TI QFN-FCMOD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "step down DCDC converter regulator automotive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPSM33606S5_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPSM33606S5_1_1"
+				(pin open_collector line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "PGOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 7.62 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "MODE/SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bmw-e36-abs-module:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -160,172 +446,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "bmw-e36-abs-module:D_TVS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_TVS"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_TVS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_TVS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -910,6 +1030,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:+5VA"
 			(power global)
 			(pin_numbers
@@ -1165,6 +1424,183 @@
 				)
 			)
 			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbols:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2267,7 +2703,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:D_TVS"
+		(symbol "symbols:D_Zener"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2290,7 +2726,7 @@
 					)
 				)
 			)
-			(property "Value" "D_TVS"
+			(property "Value" "D_Zener"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2322,7 +2758,7 @@
 					)
 				)
 			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode"
+			(property "Description" "Zener diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2333,7 +2769,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode TVS thyrector"
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2355,22 +2791,10 @@
 					)
 				)
 			)
-			(symbol "D_TVS_0_1"
+			(symbol "D_Zener_0_1"
 				(polyline
 					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -2392,12 +2816,24 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "D_TVS_1_1"
+			(symbol "D_Zener_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2415,7 +2851,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2971,6 +3407,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:R"
 			(pin_numbers
 				(hide yes)
@@ -3101,322 +3702,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "symbols:R-786.5-0.5"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R-786.5-0.5"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT"
-				(at 1.27 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "500mA Step-Down DC/DC-Regulator, 8-32V input, 6.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dc-dc recom Step-Down DC/DC-Regulator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Converter*DCDC*RECOM*R*78E*0.5*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-786.5-0.5_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "R-786.5-0.5_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "symbols:R-78E3.3-0.5"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R-78E3.3-0.5"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT"
-				(at 1.27 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "500mA Step-Down DC/DC-Regulator, 6-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dc-dc recom Step-Down DC/DC-Regulator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Converter*DCDC*RECOM*R*78E*0.5*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R-78E3.3-0.5_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "R-78E3.3-0.5_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4252,6 +4537,200 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:TLV73333PDBV"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV73333PDBV"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "300mA LDO Regulator Fixed Positive Capacitor-Free"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV73333PDBV_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV73333PDBV_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -4375,161 +4854,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:UA78M05QDCYRQ1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "UA78M05QDCYRQ1"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0.635 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/UA78M-Q1"
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Positive 500mA 25V Linear Regulator, Fixed Output 5V, SOT-223"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Automotive Q100 0.5A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "UA78M05QDCYRQ1_0_1"
-				(rectangle
-					(start -5.08 2.54)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "UA78M05QDCYRQ1_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "16 MHz HSE"
 		(exclude_from_sim no)
@@ -4567,17 +4891,6 @@
 		)
 		(uuid "0d156699-559d-45c1-ab4d-0fc42dfa330e")
 	)
-	(text "3.3V MICROCONTROLLER SUPPLY\n500 mA MAX"
-		(exclude_from_sim no)
-		(at 88.9 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "682e12df-7e2f-42cd-abe0-d47b28494f2d")
-	)
 	(text "Tag-Connect TC2030-NL"
 		(exclude_from_sim no)
 		(at 387.35 113.03 0)
@@ -4590,13 +4903,13 @@
 	)
 	(text "POWER\nLED"
 		(exclude_from_sim no)
-		(at 45.72 179.07 0)
+		(at 123.19 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "802d6389-bcf9-449c-81b3-4b19f12aecbe")
 	)
@@ -4662,16 +4975,35 @@
 		)
 		(uuid "aad8274a-25cb-4fea-89a7-b3e386c9a913")
 	)
-	(text "5V SENSOR SUPPLY\n500 mA MAX"
+	(text "3.3V MICROCONTROLLER SUPPLY\n100mA MAX"
 		(exclude_from_sim no)
-		(at 119.38 203.2 0)
+		(at 114.3 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+		)
+		(uuid "b00e7dfe-72d1-4cb4-9b88-e612a8f51b52")
+	)
+	(text "5V SENSOR SUPPLY\n500 mA MAX"
+		(exclude_from_sim no)
+		(at 114.3 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
 		(uuid "b3aa9e67-8b80-42db-8bcf-b6da44898824")
+	)
+	(text "PLACE CAPS CLOSE TO CONNECTOR"
+		(exclude_from_sim no)
+		(at 77.47 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b813ae32-515d-4a29-b5f6-dce5a419adc2")
 	)
 	(text "ABS DIAGNOSTIC INTERFACE"
 		(exclude_from_sim no)
@@ -4688,7 +5020,7 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 22.86 137.16 0)
+		(at 22.86 124.46 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4700,16 +5032,22 @@
 		(uuid "ec7fc916-8bea-44d3-81e2-584c94b3e4a6")
 	)
 	(junction
+		(at 107.95 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00b652c4-6c55-4231-be05-db0e896498d5")
+	)
+	(junction
 		(at 328.93 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b47d041-c1c6-4d49-9c29-000d6f4efa77")
 	)
 	(junction
-		(at 48.26 172.72)
+		(at 97.79 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2545e26f-1d7f-4c99-9b16-11b68ad782ca")
+		(uuid "206ac60f-38a2-4de2-b6cf-be4ba46e3b28")
 	)
 	(junction
 		(at 289.56 78.74)
@@ -4724,6 +5062,18 @@
 		(uuid "2b1fe94e-4f07-4be6-b511-2185eda4a1bd")
 	)
 	(junction
+		(at 99.06 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35a28860-8b63-42cc-a74e-a4863c2b897e")
+	)
+	(junction
+		(at 81.28 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "404c0e28-6ffc-4fe0-93d0-9e70eb72ca2e")
+	)
+	(junction
 		(at 340.36 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4736,16 +5086,40 @@
 		(uuid "5b01104c-b506-421d-b0c0-3b275380bec8")
 	)
 	(junction
-		(at 132.08 215.9)
+		(at 82.55 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "71fcad88-9947-475f-9183-06c3f95cfeff")
+		(uuid "64562893-138e-4f7c-bc25-e1b5cb884de2")
+	)
+	(junction
+		(at 87.63 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66dca11c-8f68-489d-9489-2c0fe3b2497c")
+	)
+	(junction
+		(at 91.44 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "690b9bc4-51f9-427f-b87e-278d8f609eba")
+	)
+	(junction
+		(at 50.8 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7300fe37-4ee0-4e1d-86e5-5bee2a8db20b")
 	)
 	(junction
 		(at 354.33 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73e382ac-7df0-48e5-84a5-8837316ef8b8")
+	)
+	(junction
+		(at 50.8 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75e650d3-54e8-4197-a40b-98a9530548bb")
 	)
 	(junction
 		(at 341.63 54.61)
@@ -4760,28 +5134,22 @@
 		(uuid "7d2c40ce-e39f-4c96-a909-6b1f294dc195")
 	)
 	(junction
-		(at 82.55 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d8620ef-8a8b-49c7-94e5-053a6302aff5")
-	)
-	(junction
 		(at 292.1 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "821911af-c995-45e5-8e76-afcf6a4887bc")
 	)
 	(junction
-		(at 33.02 172.72)
+		(at 114.3 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "83e685e9-3585-4992-9d2b-427d4ab8199d")
+		(uuid "88a489af-3fa1-471e-a741-69fb03921707")
 	)
 	(junction
-		(at 82.55 226.06)
+		(at 82.55 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "903d02bf-d5e7-43f1-9940-92b1d195dec3")
+		(uuid "8bf43f96-27b4-45b9-872f-3abadbf6e4d6")
 	)
 	(junction
 		(at 341.63 44.45)
@@ -4790,28 +5158,16 @@
 		(uuid "92c2a1fc-936a-4f3d-a6a3-7d04da491334")
 	)
 	(junction
-		(at 72.39 172.72)
+		(at 60.96 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "93ef48e8-ea9a-4896-8013-d00fe01d7676")
+		(uuid "99a814bf-0d56-4c61-9c4b-7e282f403430")
 	)
 	(junction
 		(at 304.8 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a025d65b-8d3d-45b3-bbfc-f3bcd6220e38")
-	)
-	(junction
-		(at 92.71 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6ffa62e-926d-47e4-bd2d-f2700a0bdaf7")
-	)
-	(junction
-		(at 60.96 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a7062c7e-5d32-4ac7-85a5-a6b979e7f548")
 	)
 	(junction
 		(at 317.5 54.61)
@@ -4826,22 +5182,28 @@
 		(uuid "b70592e7-7927-4444-b8c1-fec9591baa4c")
 	)
 	(junction
-		(at 33.02 215.9)
+		(at 92.71 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c350ad49-534f-43b0-88db-acc6e30ea9de")
+	)
+	(junction
+		(at 25.4 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c90a8e61-a24d-44dc-9dda-b487daa62e7c")
 	)
 	(junction
-		(at 72.39 215.9)
+		(at 87.63 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cb04aee0-92e4-4b5b-8bdc-782fb95ef23c")
+		(uuid "cd40f8b6-3091-444f-96fd-f93e66e39b5e")
 	)
 	(junction
-		(at 92.71 172.72)
+		(at 99.06 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d8f3172e-f60d-448f-be02-73ba86c8d8b0")
+		(uuid "d75313f7-ff7b-4131-abbd-4ce84727734f")
 	)
 	(junction
 		(at 317.5 44.45)
@@ -4850,20 +5212,18 @@
 		(uuid "d949afc0-7eb2-41d7-a041-71c9c421fd26")
 	)
 	(junction
-		(at 118.11 215.9)
+		(at 102.87 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ed1535d2-d21e-4fdf-b2e1-cf2962c3d8f8")
-	)
-	(junction
-		(at 107.95 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f68601a4-f570-45ce-9f61-81247f9be533")
+		(uuid "ecf4cc5a-9efc-4938-bf7d-3347a1432aa4")
 	)
 	(no_connect
 		(at 309.88 102.87)
 		(uuid "17979e87-299d-43d0-b9cc-368086505d67")
+	)
+	(no_connect
+		(at 88.9 179.07)
+		(uuid "27247eea-52dd-4fb5-b7a3-74ea7e086fc7")
 	)
 	(no_connect
 		(at 274.32 123.19)
@@ -4897,6 +5257,14 @@
 		(at 309.88 105.41)
 		(uuid "cbce52d2-eac3-4020-b1ef-bab0817fd43b")
 	)
+	(no_connect
+		(at 88.9 191.77)
+		(uuid "db1b08cd-9e90-41d8-ade2-5abc154dc884")
+	)
+	(no_connect
+		(at 88.9 181.61)
+		(uuid "fc9ecd38-e788-48e5-9513-ef92e83c0241")
+	)
 	(wire
 		(pts
 			(xy 88.9 46.99) (xy 91.44 46.99)
@@ -4929,7 +5297,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 181.61) (xy 48.26 182.88)
+			(xy 92.71 240.03) (xy 82.55 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048fd28a-57a2-40a3-8506-754e39444c6b")
+	)
+	(wire
+		(pts
+			(xy 114.3 236.22) (xy 114.3 237.49)
 		)
 		(stroke
 			(width 0)
@@ -5019,16 +5397,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 226.06) (xy 107.95 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "115e697a-de47-41df-85e0-f8e60b675566")
-	)
-	(wire
-		(pts
 			(xy 304.8 44.45) (xy 304.8 45.72)
 		)
 		(stroke
@@ -5077,6 +5445,16 @@
 		)
 		(uuid "162bf65e-2731-4cef-a92f-e09619cefafa")
 	)
+	(wire
+		(pts
+			(xy 92.71 240.03) (xy 92.71 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192595ce-4686-430b-85fe-38197c8a2aae")
+	)
 	(polyline
 		(pts
 			(xy 152.4 139.7) (xy 254 139.7)
@@ -5086,26 +5464,6 @@
 			(type default)
 		)
 		(uuid "1ab98ace-126d-4a13-8572-a199415a6c59")
-	)
-	(wire
-		(pts
-			(xy 132.08 215.9) (xy 132.08 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dccd62d-b4db-41df-ac20-93176aa86388")
-	)
-	(wire
-		(pts
-			(xy 74.93 172.72) (xy 72.39 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f432130-975e-46dc-9753-0a97069bd063")
 	)
 	(wire
 		(pts
@@ -5119,13 +5477,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 215.9) (xy 72.39 217.17)
+			(xy 50.8 186.69) (xy 50.8 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "208c0693-89ac-4604-ab3f-fcd05fe3b453")
+		(uuid "21aaec59-76da-4493-a20d-1c44a3126138")
 	)
 	(wire
 		(pts
@@ -5136,6 +5494,36 @@
 			(type default)
 		)
 		(uuid "228ea49a-10a4-4298-b517-69345a33f6e4")
+	)
+	(wire
+		(pts
+			(xy 114.3 227.33) (xy 114.3 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240b1b8d-0fac-4bfb-89ef-df48abc624f6")
+	)
+	(wire
+		(pts
+			(xy 82.55 240.03) (xy 82.55 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e79ce5-c46e-4281-ac94-ec7c54272673")
+	)
+	(wire
+		(pts
+			(xy 99.06 148.59) (xy 99.06 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c76716-7730-4ecd-9a44-f0d3edc6e1d8")
 	)
 	(wire
 		(pts
@@ -5169,13 +5557,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 215.9) (xy 35.56 215.9)
+			(xy 25.4 227.33) (xy 27.94 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2ec179d8-a137-44ae-b579-674446e3e758")
+	)
+	(wire
+		(pts
+			(xy 111.76 176.53) (xy 114.3 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6b96a7-ca82-48dd-a65a-a8e9a46ae01b")
 	)
 	(wire
 		(pts
@@ -5189,6 +5587,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 226.06) (xy 107.95 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307a6bed-cd63-4d17-aaa4-cc90493829e3")
+	)
+	(wire
+		(pts
 			(xy 222.25 179.07) (xy 233.68 179.07)
 		)
 		(stroke
@@ -5196,16 +5604,6 @@
 			(type default)
 		)
 		(uuid "308597cd-cc38-44e5-b80f-afaeba5d49f3")
-	)
-	(wire
-		(pts
-			(xy 82.55 182.88) (xy 92.71 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31b5cb3d-5387-47e7-9098-495eb088bfed")
 	)
 	(wire
 		(pts
@@ -5219,6 +5617,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 227.33) (xy 100.33 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34bff974-02ff-4372-a00c-1ebd82e91d08")
+	)
+	(wire
+		(pts
 			(xy 262.89 115.57) (xy 274.32 115.57)
 		)
 		(stroke
@@ -5229,7 +5637,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 190.5) (xy 48.26 191.77)
+			(xy 114.3 245.11) (xy 114.3 246.38)
 		)
 		(stroke
 			(width 0)
@@ -5259,6 +5667,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 138.43) (xy 99.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3955c5a7-7993-4639-a008-333aeeb03b8d")
+	)
+	(wire
+		(pts
 			(xy 328.93 53.34) (xy 328.93 54.61)
 		)
 		(stroke
@@ -5266,6 +5684,16 @@
 			(type default)
 		)
 		(uuid "39edb16e-3369-4e7b-89a7-e77aab28653a")
+	)
+	(wire
+		(pts
+			(xy 88.9 176.53) (xy 91.44 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a23c6fc-79b2-469f-9df4-367c96fd7ee2")
 	)
 	(wire
 		(pts
@@ -5279,16 +5707,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 182.88) (xy 82.55 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aec59e8-338e-45e6-ada6-481a0f58148c")
-	)
-	(wire
-		(pts
 			(xy 353.06 132.08) (xy 353.06 134.62)
 		)
 		(stroke
@@ -5299,7 +5717,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 214.63) (xy 33.02 215.9)
+			(xy 25.4 226.06) (xy 25.4 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5339,23 +5757,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 180.34) (xy 82.55 182.88)
+			(xy 99.06 149.86) (xy 99.06 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3fd7852a-fc0a-4a52-a0ff-88cee5325028")
-	)
-	(wire
-		(pts
-			(xy 92.71 215.9) (xy 92.71 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42c3624e-72df-4820-9c9a-ef7d7d1eeff4")
+		(uuid "412d7ba2-b39a-4770-83a0-ccf65cf55abb")
 	)
 	(wire
 		(pts
@@ -5389,26 +5797,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 181.61) (xy 33.02 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481febe4-35a0-4248-8df2-477687e6eb76")
-	)
-	(wire
-		(pts
-			(xy 48.26 172.72) (xy 48.26 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "496e4bfd-7a55-4f5d-8fa5-0aa42ab0c7ac")
-	)
-	(wire
-		(pts
 			(xy 222.25 176.53) (xy 233.68 176.53)
 		)
 		(stroke
@@ -5419,13 +5807,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 226.06) (xy 92.71 224.79)
+			(xy 58.42 139.7) (xy 71.12 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d87f505-f242-4db7-975a-466064ae9dbc")
+		(uuid "4bfc498a-a60d-49ca-8391-1800b2ac1d3b")
+	)
+	(wire
+		(pts
+			(xy 60.96 191.77) (xy 60.96 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df330c2-a387-4e76-8589-842460e1cb19")
 	)
 	(wire
 		(pts
@@ -5439,33 +5837,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 172.72) (xy 48.26 172.72)
+			(xy 102.87 227.33) (xy 107.95 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55ca2be1-86c4-4b7b-8c5a-6f496a6a8caa")
-	)
-	(wire
-		(pts
-			(xy 92.71 215.9) (xy 100.33 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5607b529-175b-433e-92a6-ee747516e099")
-	)
-	(wire
-		(pts
-			(xy 132.08 224.79) (xy 132.08 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56247f62-9183-4e9c-a12e-74a719841aa8")
+		(uuid "57d0b1ac-344b-4f5d-a3fd-bd11fd9375a8")
 	)
 	(wire
 		(pts
@@ -5479,23 +5857,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 173.99) (xy 92.71 172.72)
+			(xy 114.3 226.06) (xy 114.3 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a8dc2ff-fc71-43f8-bd9c-7ecfad41801a")
-	)
-	(wire
-		(pts
-			(xy 115.57 215.9) (xy 118.11 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b260359-1d45-4391-9c60-626bb43a3c88")
+		(uuid "5b5a4b1a-d2bf-4e9b-81fe-b4e940eac9b2")
 	)
 	(wire
 		(pts
@@ -5509,7 +5877,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 171.45) (xy 33.02 172.72)
+			(xy 81.28 139.7) (xy 87.63 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c63d7d7-29a4-4689-8f32-ae5966bf3cda")
+	)
+	(wire
+		(pts
+			(xy 50.8 175.26) (xy 50.8 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5529,23 +5907,33 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 172.72) (xy 33.02 173.99)
+			(xy 50.8 186.69) (xy 63.5 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "608daff0-5cb2-4e71-baa7-74bbe3df6683")
+		(uuid "5d70324e-9719-40cb-a1b9-4cec9d58d85c")
 	)
 	(wire
 		(pts
-			(xy 72.39 181.61) (xy 72.39 182.88)
+			(xy 63.5 181.61) (xy 60.96 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "623717da-3f37-41aa-a9a7-e20592804f14")
+		(uuid "606f9c99-c388-4b73-8cd1-c6258127355b")
+	)
+	(wire
+		(pts
+			(xy 60.96 201.93) (xy 60.96 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66030525-48d6-426a-a4b8-9ed0ff4954fc")
 	)
 	(wire
 		(pts
@@ -5599,6 +5987,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 181.61) (xy 60.96 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f5935e-ec9e-4705-91ca-7031738aff07")
+	)
+	(wire
+		(pts
 			(xy 289.56 78.74) (xy 292.1 78.74)
 		)
 		(stroke
@@ -5639,13 +6037,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 182.88) (xy 92.71 181.61)
+			(xy 60.96 176.53) (xy 63.5 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6bc8fa73-b18d-48ac-bec8-2b4b2c9fe417")
+		(uuid "6a2d3ea1-f471-48ce-bfcf-8b4f61a765ce")
 	)
 	(wire
 		(pts
@@ -5669,6 +6067,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 139.7) (xy 87.63 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7303c0c5-cac8-4711-ac8c-73bbd021a64f")
+	)
+	(wire
+		(pts
 			(xy 88.9 52.07) (xy 91.44 52.07)
 		)
 		(stroke
@@ -5676,26 +6084,6 @@
 			(type default)
 		)
 		(uuid "73a804e2-9114-4d49-9910-269a1d43e449")
-	)
-	(wire
-		(pts
-			(xy 82.55 226.06) (xy 82.55 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "745abb78-c217-4b8a-afd8-82b80823b595")
-	)
-	(wire
-		(pts
-			(xy 118.11 214.63) (xy 118.11 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74bae1bb-63f2-4dfa-9032-74ad4a471734")
 	)
 	(wire
 		(pts
@@ -5789,7 +6177,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 62.23) (xy 91.44 62.23)
+			(xy 88.9 62.23) (xy 111.76 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5819,6 +6207,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 139.7) (xy 99.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815fd3fa-5451-4361-87d7-39230a3962b5")
+	)
+	(wire
+		(pts
 			(xy 262.89 105.41) (xy 274.32 105.41)
 		)
 		(stroke
@@ -5829,6 +6227,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 186.69) (xy 91.44 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82907a1d-d918-44de-9e70-7c8184ee267e")
+	)
+	(wire
+		(pts
+			(xy 91.44 176.53) (xy 97.79 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8375e7f6-04d8-4e5e-9d50-037d62c42d16")
+	)
+	(wire
+		(pts
 			(xy 351.79 88.9) (xy 340.36 88.9)
 		)
 		(stroke
@@ -5836,16 +6254,6 @@
 			(type default)
 		)
 		(uuid "83bd802a-0482-4da9-b4f3-a18a34de55e8")
-	)
-	(wire
-		(pts
-			(xy 118.11 215.9) (xy 132.08 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84459eb4-485e-4baa-86d1-7a6c987ff943")
 	)
 	(wire
 		(pts
@@ -5909,6 +6317,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 139.7) (xy 78.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8749e2e5-2729-4789-b4a0-95d31394b09b")
+	)
+	(wire
+		(pts
 			(xy 346.71 134.62) (xy 340.36 134.62)
 		)
 		(stroke
@@ -5919,13 +6337,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 171.45) (xy 92.71 172.72)
+			(xy 82.55 227.33) (xy 85.09 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d70c377-98ef-478e-b49c-b9aa9439fb05")
+		(uuid "8d8487eb-4e5d-4ad7-a705-bc30d3681b71")
 	)
 	(wire
 		(pts
@@ -5936,6 +6354,16 @@
 			(type default)
 		)
 		(uuid "8e5772f3-8ca0-4e30-9d0b-a3d7fcdaab80")
+	)
+	(wire
+		(pts
+			(xy 76.2 196.85) (xy 76.2 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908d362a-3a0e-4e95-bbcd-cd0afe629d38")
 	)
 	(wire
 		(pts
@@ -5959,43 +6387,63 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 172.72) (xy 95.25 172.72)
+			(xy 97.79 176.53) (xy 97.79 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93d92d6c-38b9-4ebf-82d7-ae10b0e3a48f")
+		(uuid "91c0b866-7214-47bf-8d3d-8700983b99be")
 	)
 	(wire
 		(pts
-			(xy 72.39 172.72) (xy 72.39 173.99)
+			(xy 102.87 227.33) (xy 102.87 231.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9674dac7-3831-46d5-b0de-663f82767154")
+		(uuid "9450f7eb-1e14-47c5-982e-ee6e63e184f0")
 	)
 	(wire
 		(pts
-			(xy 72.39 226.06) (xy 82.55 226.06)
+			(xy 99.06 139.7) (xy 99.06 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99a167ba-c439-48e3-aa73-d517eaa0a8d4")
+		(uuid "94939726-5b4d-4bf8-908b-7a8239cf7c2c")
 	)
 	(wire
 		(pts
-			(xy 132.08 214.63) (xy 132.08 215.9)
+			(xy 92.71 237.49) (xy 92.71 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9aa7deb0-4610-4be6-998b-b15e5b16c5fe")
+		(uuid "94d6b3ff-d6ac-4475-8a42-ee92b04dbc0e")
+	)
+	(wire
+		(pts
+			(xy 97.79 176.53) (xy 97.79 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956ebdb3-a0b9-43c4-becf-0b2e551eb34a")
+	)
+	(wire
+		(pts
+			(xy 77.47 226.06) (xy 77.47 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d54025-975d-45c3-b608-a46bfc34f91b")
 	)
 	(wire
 		(pts
@@ -6006,16 +6454,6 @@
 			(type default)
 		)
 		(uuid "9bde1426-2316-44ef-ae16-8942b0731712")
-	)
-	(wire
-		(pts
-			(xy 60.96 172.72) (xy 72.39 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c520c04-eafc-4403-b27c-efa4eace5afc")
 	)
 	(wire
 		(pts
@@ -6049,33 +6487,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 172.72) (xy 90.17 172.72)
+			(xy 91.44 186.69) (xy 91.44 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0e55cf6-9497-4ab5-9e0b-42c5d49def38")
+		(uuid "9ed105a0-99d9-4610-907b-59895dfa2835")
 	)
 	(wire
 		(pts
-			(xy 107.95 226.06) (xy 118.11 226.06)
+			(xy 50.8 185.42) (xy 50.8 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1167772-e675-448e-96c4-41bf9ad0d69e")
-	)
-	(wire
-		(pts
-			(xy 74.93 215.9) (xy 72.39 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2c9fef3-632b-4279-9613-126899207a35")
+		(uuid "a01900a6-21fb-4132-b57a-aa4d16055d19")
 	)
 	(wire
 		(pts
@@ -6129,13 +6557,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 215.9) (xy 92.71 215.9)
+			(xy 102.87 238.76) (xy 102.87 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7a3758b-5b1b-4fe0-b53e-664e4eb515df")
+		(uuid "a783b12a-997d-401f-9c08-b6054a595e77")
 	)
 	(wire
 		(pts
@@ -6179,6 +6607,26 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 176.53) (xy 50.8 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2a6c10-1425-4337-8c65-837a9d25c7ca")
+	)
+	(wire
+		(pts
+			(xy 91.44 175.26) (xy 91.44 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad995575-091e-4a85-bde0-bdf6915bee51")
+	)
+	(wire
+		(pts
 			(xy 222.25 243.84) (xy 234.95 243.84)
 		)
 		(stroke
@@ -6199,16 +6647,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 172.72) (xy 60.96 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae99a73e-b301-4675-8403-5b5bc1038aaf")
-	)
-	(wire
-		(pts
 			(xy 262.89 110.49) (xy 274.32 110.49)
 		)
 		(stroke
@@ -6219,6 +6657,26 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 227.33) (xy 82.55 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05e7a06-7d20-407e-8e23-d42536f92dd9")
+	)
+	(wire
+		(pts
+			(xy 97.79 176.53) (xy 104.14 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23e27fe-0c3f-4d59-a6e5-57d54fff0a9a")
+	)
+	(wire
+		(pts
 			(xy 354.33 44.45) (xy 354.33 45.72)
 		)
 		(stroke
@@ -6226,6 +6684,16 @@
 			(type default)
 		)
 		(uuid "b26728fc-f0e7-47e9-b4e0-388441e2e358")
+	)
+	(wire
+		(pts
+			(xy 99.06 149.86) (xy 87.63 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27a2654-48a5-45a4-b16f-9920f6f00ddf")
 	)
 	(wire
 		(pts
@@ -6249,17 +6717,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 224.79) (xy 118.11 226.06)
+			(xy 107.95 227.33) (xy 114.3 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b518ef50-458f-4b47-be0e-5e4551db734c")
+		(uuid "b6135f3f-0bb9-40db-a6a4-ab1e9aa788cd")
 	)
 	(wire
 		(pts
-			(xy 43.18 215.9) (xy 43.18 217.17)
+			(xy 35.56 227.33) (xy 35.56 228.6)
 		)
 		(stroke
 			(width 0)
@@ -6289,13 +6757,23 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 224.79) (xy 72.39 226.06)
+			(xy 63.5 191.77) (xy 60.96 191.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc75330f-0f96-4953-8482-8b8219a1ebcc")
+		(uuid "bd1eed37-d26d-4be7-b83e-70339f8a10d6")
+	)
+	(wire
+		(pts
+			(xy 85.09 229.87) (xy 82.55 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c041e807-30b3-427c-b5de-3ccbe80e6c3f")
 	)
 	(wire
 		(pts
@@ -6339,6 +6817,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 149.86) (xy 81.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2e21c9-4aed-42d1-bc49-3e638a37e86e")
+	)
+	(wire
+		(pts
+			(xy 50.8 176.53) (xy 60.96 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccfe86b3-664f-4432-af31-aae16a3c4c70")
+	)
+	(wire
+		(pts
 			(xy 317.5 44.45) (xy 317.5 45.72)
 		)
 		(stroke
@@ -6349,7 +6847,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 215.9) (xy 43.18 215.9)
+			(xy 33.02 227.33) (xy 35.56 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6439,26 +6937,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 223.52) (xy 107.95 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dba0169d-9ebb-4b6e-b169-4b6a6e661663")
-	)
-	(wire
-		(pts
-			(xy 82.55 223.52) (xy 82.55 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc315279-f505-4833-b758-4213eac6fbd5")
-	)
-	(wire
-		(pts
 			(xy 88.9 57.15) (xy 111.76 57.15)
 		)
 		(stroke
@@ -6479,6 +6957,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 176.53) (xy 114.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddaf98dc-6d18-4483-a585-e6e647178664")
+	)
+	(wire
+		(pts
+			(xy 82.55 229.87) (xy 82.55 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decaa288-2831-4cd5-936e-07cd326b2405")
+	)
+	(wire
+		(pts
 			(xy 172.72 185.42) (xy 184.15 185.42)
 		)
 		(stroke
@@ -6489,13 +6987,43 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 215.9) (xy 72.39 215.9)
+			(xy 92.71 240.03) (xy 102.87 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3b950e3-a52d-4dee-b564-21364982e32e")
+		(uuid "e0e41673-529b-45bb-93a9-b28db51a2740")
+	)
+	(wire
+		(pts
+			(xy 81.28 140.97) (xy 81.28 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a79d95-d3a3-4469-b36e-4aa205aebc01")
+	)
+	(wire
+		(pts
+			(xy 87.63 149.86) (xy 87.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b43420-5f4b-4e12-bc1d-1064d6fc73c8")
+	)
+	(wire
+		(pts
+			(xy 97.79 185.42) (xy 97.79 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56e21f0-f048-44e5-8916-b65d300326c3")
 	)
 	(wire
 		(pts
@@ -6506,6 +7034,16 @@
 			(type default)
 		)
 		(uuid "e94cec12-b9d3-423b-b3fc-c2c7b212c859")
+	)
+	(wire
+		(pts
+			(xy 81.28 149.86) (xy 81.28 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1a6f11-a304-4b25-a964-fc8389c6b604")
 	)
 	(wire
 		(pts
@@ -6549,46 +7087,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 226.06) (xy 92.71 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0e23c33-20e4-4813-8b86-0d0719c8d51f")
-	)
-	(wire
-		(pts
-			(xy 82.55 182.88) (xy 82.55 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0f3bbbd-237d-4bba-9a94-ffd97bd3d3af")
-	)
-	(wire
-		(pts
-			(xy 118.11 215.9) (xy 118.11 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3320c94-2534-4689-93ca-12afe3111fef")
-	)
-	(wire
-		(pts
-			(xy 60.96 172.72) (xy 60.96 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a2d541-e7e1-4a52-b074-d93aaec1b42a")
-	)
-	(wire
-		(pts
 			(xy 304.8 53.34) (xy 304.8 54.61)
 		)
 		(stroke
@@ -6596,16 +7094,6 @@
 			(type default)
 		)
 		(uuid "f5a91efc-1b5c-43fb-89a4-f72b4826ee66")
-	)
-	(wire
-		(pts
-			(xy 99.06 62.23) (xy 100.33 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f69e4d45-4231-47ef-84da-16990ba659ac")
 	)
 	(wire
 		(pts
@@ -6629,7 +7117,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 127) (xy 152.4 127)
+			(xy 12.7 114.3) (xy 152.4 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6659,7 +7147,17 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 215.9) (xy 33.02 217.17)
+			(xy 82.55 229.87) (xy 82.55 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9dd2cc-93cd-4c44-ac08-1cd8494bbcd8")
+	)
+	(wire
+		(pts
+			(xy 25.4 227.33) (xy 25.4 228.6)
 		)
 		(stroke
 			(width 0)
@@ -10163,17 +10661,6 @@
 		)
 		(uuid "27ea401f-f820-44e8-8107-791c0a7f5a2b")
 	)
-	(label "6V5PRE"
-		(at 91.44 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ad22248-2562-41dc-ad85-1e7acaca6a1c")
-	)
 	(label "PEDAL_EN"
 		(at 172.72 170.18 0)
 		(effects
@@ -10386,6 +10873,16 @@
 		)
 		(uuid "93b16a9c-adac-4e65-9193-a724ae46f91e")
 	)
+	(label "12V_CONN"
+		(at 58.42 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ad5070c-0455-42ce-be1a-023a1cc9fa26")
+	)
 	(label "PEDAL_L2"
 		(at 262.89 110.49 0)
 		(effects
@@ -10586,6 +11083,16 @@
 		)
 		(uuid "d74bde0d-3c88-40f5-a50d-a25d5f0f0824")
 	)
+	(label "12V_CONN"
+		(at 111.76 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9a52f77-92e1-4b6f-86c2-d4c59feb3d19")
+	)
 	(label "SWDIO"
 		(at 323.85 120.65 180)
 		(effects
@@ -10680,7 +11187,7 @@
 	)
 	(symbol
 		(lib_id "symbols:TestPoint")
-		(at 33.02 214.63 0)
+		(at 25.4 226.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10690,7 +11197,7 @@
 		(dnp no)
 		(uuid "0b13d9f9-e15c-46dd-9ddc-85e8c550b8d0")
 		(property "Reference" "TP?"
-			(at 33.02 209.55 0)
+			(at 25.4 220.98 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10701,7 +11208,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 30.48 210.0581 0)
+			(at 22.86 221.4881 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10713,7 +11220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 214.63 0)
+			(at 30.48 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10724,7 +11231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 214.63 0)
+			(at 30.48 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10735,7 +11242,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 33.02 214.63 0)
+			(at 25.4 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10752,6 +11259,110 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "TP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:C_Polarized")
+		(at 87.63 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c0ccc27-8579-49b7-bc57-216f8e31d56e")
+		(property "Reference" "C?"
+			(at 91.44 142.6209 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 91.44 145.1609 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x6.5"
+			(at 88.5952 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-ucd.pdf"
+			(at 87.63 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 87.63 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Nichicon"
+			(at 87.63 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "UCD1H470MCL6GS"
+			(at 87.63 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6af178ff-1305-4db4-989c-9103e1131607")
+		)
+		(pin "1"
+			(uuid "2f6ab605-c3ce-4b5d-b77b-1b3abcd0d448")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -10840,85 +11451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:+5VA")
-		(at 91.44 46.99 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e9895a0-1acb-4bc2-b037-ff5d2f01ed0f")
-		(property "Reference" "#PWR?"
-			(at 87.63 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 95.25 46.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 91.44 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b852a5d-7339-4e76-8bb0-e69341fccbdc")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:GND")
 		(at 378.46 132.08 0)
 		(unit 1)
@@ -10991,87 +11523,6 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:C")
-		(at 92.71 220.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "13df1267-49d3-4163-9b29-3d59a23d51dd")
-		(property "Reference" "C?"
-			(at 96.52 219.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 96.52 222.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.6752 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 92.71 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3f39b93-1a97-4190-8fa3-d45a4163f086")
-		)
-		(pin "2"
-			(uuid "334fbfc5-a141-4bbd-a70d-629c46dea5c0")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -11244,7 +11695,7 @@
 	)
 	(symbol
 		(lib_id "symbols:NetTie_2")
-		(at 38.1 215.9 0)
+		(at 30.48 227.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11255,7 +11706,7 @@
 		(fields_autoplaced yes)
 		(uuid "15c0d572-aeab-40c0-b203-d54fac42e07e")
 		(property "Reference" "NT?"
-			(at 38.1 213.36 0)
+			(at 30.48 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11265,7 +11716,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 38.1 213.36 0)
+			(at 30.48 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11276,7 +11727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 215.9 0)
+			(at 30.48 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11287,7 +11738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 215.9 0)
+			(at 30.48 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11298,7 +11749,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 38.1 215.9 0)
+			(at 30.48 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11318,84 +11769,6 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "NT?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:+5VA")
-		(at 132.08 214.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "166e55e8-b2e2-4fd5-8f8e-c77e79c67f1b")
-		(property "Reference" "#PWR?"
-			(at 132.08 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 132.08 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 132.08 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8bc7454d-3848-4ede-a4d8-6269dbe6b986")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -11519,8 +11892,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:GNDA")
-		(at 107.95 227.33 0)
+		(lib_id "symbols:Polyfuse")
+		(at 107.95 176.53 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11529,120 +11902,41 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1eb412bf-6e57-4242-94bb-7cffb63f0abc")
-		(property "Reference" "#PWR?"
-			(at 107.95 233.68 0)
+		(uuid "1ea4950e-b17a-4346-a69b-fe6d321e2dd4")
+		(property "Reference" "F?"
+			(at 107.95 170.18 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500mA"
+			(at 107.95 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 113.03 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 107.95 232.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 107.95 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "abd5bcf7-13ad-4d0b-a465-2341c0f92cfe")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:R-78E3.3-0.5")
-		(at 82.55 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "285ad9d7-f0a2-4bfe-a4de-487838c27ae0")
-		(property "Reference" "U?"
-			(at 82.55 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R-78E3.3-0.5"
-			(at 82.55 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT"
-			(at 83.82 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
 				)
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf"
-			(at 82.55 172.72 0)
+		(property "Datasheet" "https://www.belfuse.com/media/datasheets/products/circuit-protection/ds-cp-0zcj-series.pdf"
+			(at 107.95 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11652,8 +11946,30 @@
 				)
 			)
 		)
-		(property "Description" "500mA Step-Down DC/DC-Regulator, 6-28V input, 3.3V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
-			(at 82.55 172.72 0)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 107.95 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Bel Fuse"
+			(at 107.95 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "0ZCJ0050AF2E"
+			(at 107.95 176.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11664,26 +11980,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "8490de75-6b29-4418-a260-713db521e5bf")
-		)
-		(pin "3"
-			(uuid "e800bf6f-f12c-473a-9766-416cf16e3464")
+			(uuid "6836fa85-6766-4d93-b442-534d49749294")
 		)
 		(pin "1"
-			(uuid "564c9289-c561-4c16-b782-51537675b542")
+			(uuid "beb60562-f235-41d1-9158-71cd3d17650c")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "U?")
+					(reference "F?")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "symbols:+12V")
-		(at 100.33 62.23 270)
+		(lib_id "symbols:GND")
+		(at 97.79 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11692,9 +12005,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2bd7db32-3c2f-495b-a49d-11d91b1c1f84")
+		(uuid "3179d55b-279c-4516-9166-e211a804f949")
 		(property "Reference" "#PWR?"
-			(at 96.52 62.23 0)
+			(at 97.79 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11704,19 +12017,18 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 104.14 62.2299 90)
+		(property "Value" "GND"
+			(at 97.79 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 62.23 0)
+			(at 97.79 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11727,7 +12039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 62.23 0)
+			(at 97.79 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11737,8 +12049,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 100.33 62.23 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11749,7 +12061,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a6b0120-f0ec-4b90-ac8b-a6cf687e38c3")
+			(uuid "d1b8fb60-bd75-4cdc-9436-90886ee4bca7")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
@@ -11762,7 +12074,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 33.02 217.17 0)
+		(at 25.4 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11773,7 +12085,7 @@
 		(fields_autoplaced yes)
 		(uuid "3321bab2-7875-4c75-8541-9fe0872ecb55")
 		(property "Reference" "#PWR?"
-			(at 33.02 223.52 0)
+			(at 25.4 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11784,7 +12096,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 222.25 0)
+			(at 25.4 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11794,7 +12106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 217.17 0)
+			(at 25.4 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +12117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 217.17 0)
+			(at 25.4 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11816,7 +12128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 217.17 0)
+			(at 25.4 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11828,6 +12140,84 @@
 		)
 		(pin "1"
 			(uuid "12ba7747-2155-49b6-a4f3-25414951f88d")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:GND")
+		(at 92.71 241.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37292481-b08d-4a13-a0f2-ff20b9548e4c")
+		(property "Reference" "#PWR?"
+			(at 92.71 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "507ea4e9-7f11-435c-b3a5-2b023f5c5c9d")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
@@ -11915,6 +12305,110 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:D_Zener")
+		(at 81.28 144.78 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3aa23cdf-b695-4c69-a04c-be0ecefb5f71")
+		(property "Reference" "D?"
+			(at 78.74 143.5099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VTVS40ASMF-HM3-08"
+			(at 78.74 146.0499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 81.28 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85891/vtvs3v3asmf.pdf"
+			(at 81.28 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Zener diode"
+			(at 81.28 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 81.28 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "VTVS40ASMF-HM3-08"
+			(at 81.28 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c60e9fda-1a4a-4577-ad97-0490bcb69202")
+		)
+		(pin "2"
+			(uuid "d8a2c952-b444-4380-8172-26cfbe1734ed")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "D?")
 					(unit 1)
 				)
 			)
@@ -12074,6 +12568,84 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "H?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:GND")
+		(at 76.2 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cbd12ff-a738-4bc9-9a97-73a678b083e8")
+		(property "Reference" "#PWR?"
+			(at 76.2 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1c42535-f715-4842-a1f7-324e4d5b3129")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12336,90 +12908,8 @@
 		)
 	)
 	(symbol
-		(lib_id "bmw-e36-abs-module:D_TVS")
-		(at 33.02 177.8 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "553b31c8-829a-44ac-9a18-8203315811f7")
-		(property "Reference" "D?"
-			(at 30.48 176.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 30.48 179.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 33.02 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 33.02 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d885cdc6-a317-4d86-9aef-580c19b7dc71")
-		)
-		(pin "2"
-			(uuid "3371052f-859a-41b2-b32a-ef03d73be939")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:C")
-		(at 72.39 220.98 0)
+		(at 60.96 198.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12428,9 +12918,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "584f8e57-1827-4398-936f-7ab9eba89d3a")
+		(uuid "53e8d8b9-7feb-4e27-865b-6a6f93a3bbc3")
 		(property "Reference" "C?"
-			(at 68.58 219.7099 0)
+			(at 57.15 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12440,8 +12930,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 68.58 222.2499 0)
+		(property "Value" "1u"
+			(at 57.15 199.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12452,7 +12942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.4248 224.79 0)
+			(at 59.9948 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12463,7 +12953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 220.98 0)
+			(at 60.96 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12474,7 +12964,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 220.98 0)
+			(at 60.96 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12485,15 +12975,93 @@
 			)
 		)
 		(pin "1"
-			(uuid "affd9522-93d4-48f5-9371-47d7e7fd8517")
+			(uuid "ed4b7708-d176-4c86-a40f-c3fc460e129d")
 		)
 		(pin "2"
-			(uuid "52cf3dfd-818e-4757-99ed-27f5dc673a29")
+			(uuid "3efa4424-ca05-4bbd-a14f-9f91f3ffc5a5")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:GND")
+		(at 99.06 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "540b5a94-0e1b-4e22-82f3-64e396ed3cf9")
+		(property "Reference" "#PWR?"
+			(at 99.06 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0601508-2039-4a7a-889b-1babb17fe92f")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -12583,7 +13151,7 @@
 	)
 	(symbol
 		(lib_id "bmw-e36-abs-module:D_Schottky")
-		(at 95.25 62.23 180)
+		(at 74.93 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12591,9 +13159,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5cb4b71a-fe12-4360-bd70-e9e083ffaab4")
 		(property "Reference" "D?"
-			(at 95.5675 68.58 0)
+			(at 75.2475 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12602,8 +13171,8 @@
 				)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 95.5675 66.04 0)
+		(property "Value" "NRVBA340NT3G"
+			(at 75.2475 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12612,8 +13181,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 95.25 62.23 0)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 74.93 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12623,8 +13192,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 95.25 62.23 0)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mbra340t3-d.pdf"
+			(at 74.93 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12635,7 +13204,29 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 95.25 62.23 0)
+			(at 74.93 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 74.93 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "NRVBA340NT3G"
+			(at 74.93 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12740,89 +13331,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:C")
-		(at 92.71 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6cf56a2f-73e0-4d0b-ac8f-f4e1908afc42")
-		(property "Reference" "C?"
-			(at 96.52 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 96.52 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.6752 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 92.71 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fab9cc1-2834-4585-baa8-090c03f3409a")
-		)
-		(pin "2"
-			(uuid "68e80193-247c-4cef-927d-dc10b2e16c4a")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:GND")
-		(at 48.26 191.77 0)
+		(at 114.3 246.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12833,7 +13343,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fa55a3f-2103-46a6-b1e1-3a079682e4bb")
 		(property "Reference" "#PWR?"
-			(at 48.26 198.12 0)
+			(at 114.3 252.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12844,7 +13354,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.26 196.85 0)
+			(at 114.3 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12854,7 +13364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 191.77 0)
+			(at 114.3 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12865,7 +13375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 191.77 0)
+			(at 114.3 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12876,7 +13386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 191.77 0)
+			(at 114.3 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12900,7 +13410,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 33.02 182.88 0)
+		(at 50.8 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12911,7 +13421,7 @@
 		(fields_autoplaced yes)
 		(uuid "70093765-1265-42f4-8cfa-e9276a78cac9")
 		(property "Reference" "#PWR?"
-			(at 33.02 189.23 0)
+			(at 50.8 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12922,7 +13432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 187.96 0)
+			(at 50.8 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12932,7 +13442,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 182.88 0)
+			(at 50.8 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12943,7 +13453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 182.88 0)
+			(at 50.8 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12954,7 +13464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 182.88 0)
+			(at 50.8 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12978,7 +13488,7 @@
 	)
 	(symbol
 		(lib_id "bmw-e36-abs-module:LED")
-		(at 48.26 177.8 90)
+		(at 114.3 232.41 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12986,10 +13496,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "703f8a3c-9dfb-4b24-8ab3-34597e76f6e8")
 		(property "Reference" "D?"
-			(at 52.07 178.1174 90)
+			(at 118.11 232.7274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13000,7 +13509,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 52.07 180.6574 90)
+			(at 118.11 235.2674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13011,7 +13520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 177.8 0)
+			(at 114.3 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13022,7 +13531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 177.8 0)
+			(at 114.3 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13033,7 +13542,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 48.26 177.8 0)
+			(at 114.3 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13053,85 +13562,6 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:GNDA")
-		(at 73.66 52.07 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "732055c2-cacc-4a71-9e34-78853794fc6b")
-		(property "Reference" "#PWR?"
-			(at 67.31 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 69.85 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 73.66 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "79901e5d-0f7f-4df2-b758-49a6abaff2ce")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -13221,7 +13651,7 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 48.26 186.69 0)
+		(at 114.3 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13232,7 +13662,7 @@
 		(fields_autoplaced yes)
 		(uuid "785adc56-b758-4da6-8564-8304c7c76f7d")
 		(property "Reference" "R?"
-			(at 50.8 185.4199 0)
+			(at 116.84 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13243,7 +13673,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 50.8 187.9599 0)
+			(at 116.84 242.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13254,7 +13684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.482 186.69 90)
+			(at 112.522 241.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13265,7 +13695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 186.69 0)
+			(at 114.3 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13276,7 +13706,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 48.26 186.69 0)
+			(at 114.3 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13380,7 +13810,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GNDA")
-		(at 43.18 217.17 0)
+		(at 35.56 228.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13391,7 +13821,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e2ec257-9686-42fd-8d48-3ba099bfabb8")
 		(property "Reference" "#PWR?"
-			(at 43.18 223.52 0)
+			(at 35.56 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13402,7 +13832,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 43.18 222.25 0)
+			(at 35.56 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13412,7 +13842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 217.17 0)
+			(at 35.56 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13423,7 +13853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 217.17 0)
+			(at 35.56 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13434,7 +13864,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 43.18 217.17 0)
+			(at 35.56 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13446,6 +13876,191 @@
 		)
 		(pin "1"
 			(uuid "df090f6a-51b9-4c08-ad7f-71c6d97f78f9")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bmw-e36-abs-adapter:TPSM33606S5")
+		(at 76.2 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81addb6d-f74f-4ee6-a0bd-04a78bfb7a89")
+		(property "Reference" "U?"
+			(at 76.2 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPSM33606S5"
+			(at 76.2 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tpsm33606-q1.pdf"
+			(at 76.2 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC/DC converter, automotive, 3-36V input, 5V output, 0.6A, TI QFN-FCMOD"
+			(at 76.2 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e6098fb-9fbd-4a5e-8699-c0487ae99821")
+		)
+		(pin "5"
+			(uuid "002ca1af-a759-46ed-b1d3-48c25546c3db")
+		)
+		(pin "3"
+			(uuid "5e042cb2-4c08-422d-9f86-83fa3de4eff0")
+		)
+		(pin "6"
+			(uuid "4a4e41dc-1a34-49eb-8c9b-a84a06fdb0f5")
+		)
+		(pin "4"
+			(uuid "7d4e9090-1e67-4520-8461-d4efc05d6003")
+		)
+		(pin "1"
+			(uuid "a737bd61-118a-4cde-b1a4-61e2764a227f")
+		)
+		(pin "11"
+			(uuid "46d3a275-b0ed-4e40-8dd4-e1e898b7d01b")
+		)
+		(pin "10"
+			(uuid "a3ebf4b7-0f34-4443-98bd-54baa8f97fe8")
+		)
+		(pin "9"
+			(uuid "57b8a71d-611b-43f2-adb9-b2bcd3f6e1be")
+		)
+		(pin "8"
+			(uuid "6e56d736-bca6-4a19-bf17-832922d00ff9")
+		)
+		(pin "7"
+			(uuid "3df241f6-96d1-483f-8981-64915357e09e")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "U?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:+5V")
+		(at 97.79 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8464e17e-283b-441c-aa59-0655359e9de8")
+		(property "Reference" "#PWR?"
+			(at 97.79 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 97.79 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 97.79 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5be47a52-c953-4906-8c4c-800ed697b8dd")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
@@ -13851,6 +14466,84 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:+5V")
+		(at 77.47 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92442f9b-4e50-48f4-ace3-2035aed12ad0")
+		(property "Reference" "#PWR?"
+			(at 77.47 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 77.47 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 77.47 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fccf488-998f-4880-82a4-33662fb4417f")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:STM32F042K6Ux")
 		(at 292.1 107.95 0)
 		(unit 1)
@@ -14146,7 +14839,7 @@
 	)
 	(symbol
 		(lib_id "symbols:+12V")
-		(at 33.02 171.45 0)
+		(at 50.8 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14157,7 +14850,7 @@
 		(fields_autoplaced yes)
 		(uuid "96e9aff6-725d-4c6a-b124-a03a7bfbae42")
 		(property "Reference" "#PWR?"
-			(at 33.02 175.26 0)
+			(at 50.8 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14168,7 +14861,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 33.02 166.37 0)
+			(at 50.8 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14178,7 +14871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 171.45 0)
+			(at 50.8 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14189,7 +14882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 171.45 0)
+			(at 50.8 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14200,7 +14893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 33.02 171.45 0)
+			(at 50.8 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14223,8 +14916,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:R-786.5-0.5")
-		(at 82.55 215.9 0)
+		(lib_id "symbols:+5VA")
+		(at 114.3 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14233,42 +14926,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1b426c0-b81a-45e1-9cf3-4d1c666343da")
-		(property "Reference" "U?"
-			(at 82.55 209.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R-786.5-0.5"
-			(at 82.55 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT"
-			(at 83.82 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf"
-			(at 82.55 215.9 0)
+		(uuid "9cb78dd4-255c-4645-8723-144e67283f02")
+		(property "Reference" "#PWR?"
+			(at 114.3 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14278,70 +14938,18 @@
 				)
 			)
 		)
-		(property "Description" "500mA Step-Down DC/DC-Regulator, 8-32V input, 6.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
-			(at 82.55 215.9 0)
-			(hide yes)
+		(property "Value" "+5VA"
+			(at 114.3 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(pin "1"
-			(uuid "724e1a9a-7e2b-47c2-867e-da4ae64ab55e")
-		)
-		(pin "2"
-			(uuid "66771332-2704-4967-813b-049554465d8a")
-		)
-		(pin "3"
-			(uuid "1676f437-42be-46df-9acd-2f13eae25363")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:C")
-		(at 118.11 220.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a1d5526b-3626-4734-bc49-edb58cb4ee51")
-		(property "Reference" "C?"
-			(at 121.92 219.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 121.92 222.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 119.0752 224.79 0)
+			(at 114.3 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14352,7 +14960,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 220.98 0)
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd5c4d23-7d86-4f57-b0f9-83b1f64d997e")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:C")
+		(at 82.55 234.95 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "a1d5526b-3626-4734-bc49-edb58cb4ee51")
+		(property "Reference" "C?"
+			(at 78.74 233.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 78.74 236.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.5848 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14363,7 +15050,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 118.11 220.98 0)
+			(at 82.55 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14389,8 +15076,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:UA78M05QDCYRQ1")
-		(at 107.95 215.9 0)
+		(lib_id "symbols:TestPoint")
+		(at 107.95 226.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14398,106 +15085,21 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a72ee63b-0d73-4ccf-9382-f345534359e1")
-		(property "Reference" "U?"
-			(at 107.95 208.28 0)
+		(uuid "a4da6cd5-30d5-431f-b50f-3d737454ed5f")
+		(property "Reference" "TP?"
+			(at 107.95 220.98 0)
 			(show_name no)
-			(do_not_autoplace no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Value" "7805"
-			(at 107.95 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 108.585 219.71 0)
+		(property "Value" "TestPoint"
+			(at 110.49 224.0279 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/UA78M-Q1"
-			(at 107.95 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Positive 500mA 25V Linear Regulator, Fixed Output 5V, SOT-223"
-			(at 107.95 215.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0ed810ed-1305-4829-88f3-1feb8d2e6761")
-		)
-		(pin "3"
-			(uuid "1324831e-0853-4999-af94-f8e192616611")
-		)
-		(pin "1"
-			(uuid "71dc4e56-767d-4857-b23d-59b336d0d32f")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:+5VA")
-		(at 73.66 46.99 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8470ae0-ab3c-4f44-bf00-dadbedf7ed30")
-		(property "Reference" "#PWR?"
-			(at 77.47 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 69.85 46.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14508,7 +15110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 46.99 0)
+			(at 113.03 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14519,7 +15121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 46.99 0)
+			(at 113.03 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14529,8 +15131,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 73.66 46.99 0)
+		(property "Description" "test point"
+			(at 107.95 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14541,12 +15143,124 @@
 			)
 		)
 		(pin "1"
-			(uuid "8b676e9f-ddf0-4981-a563-d73f3d4e9f21")
+			(uuid "24bd6279-3e29-42cb-b541-877e12784c70")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "#PWR?")
+					(reference "TP?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:TLV73333PDBV")
+		(at 92.71 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a70ec997-ab07-4e7f-9497-be015529ec84")
+		(property "Reference" "U?"
+			(at 92.71 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV73333PQDBVRQ1"
+			(at 92.71 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 92.71 221.615 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv733p-q1.pdf"
+			(at 92.71 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 92.71 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 92.71 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "TLV73333PQDBVRQ1"
+			(at 92.71 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "eff94f42-df27-4484-ac13-ba59ea6b06bc")
+		)
+		(pin "3"
+			(uuid "104e2ee2-9f9b-45eb-8ab7-cb809d5715c5")
+		)
+		(pin "4"
+			(uuid "8dd89aa4-fabc-4581-99cf-3cce479d23e0")
+		)
+		(pin "2"
+			(uuid "736eb805-b6fb-4b3e-a2e7-2239a3424f09")
+		)
+		(pin "1"
+			(uuid "096aa9c5-7dbd-414b-b952-f76457d1948a")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -14636,7 +15350,7 @@
 	)
 	(symbol
 		(lib_id "symbols:TestPoint")
-		(at 118.11 214.63 0)
+		(at 91.44 175.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14646,7 +15360,7 @@
 		(dnp no)
 		(uuid "a9eabd67-07a0-4771-8988-ee37d3ed3c93")
 		(property "Reference" "TP?"
-			(at 118.11 209.55 0)
+			(at 91.44 170.18 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14657,7 +15371,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 120.65 212.5979 0)
+			(at 93.98 173.2279 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14669,7 +15383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 214.63 0)
+			(at 96.52 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14680,7 +15394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 214.63 0)
+			(at 96.52 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14691,7 +15405,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 118.11 214.63 0)
+			(at 91.44 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14792,168 +15506,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:C")
-		(at 72.39 177.8 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad2e7bc1-5bdc-450a-a5f3-c73fbbbf039f")
-		(property "Reference" "C?"
-			(at 68.58 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 68.58 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.4248 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 72.39 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0390f3d-7f59-483b-a4f9-8c2597dc8c7e")
-		)
-		(pin "2"
-			(uuid "9b4fc9a7-2cd7-470e-87a5-a5adfffec834")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:TestPoint")
-		(at 95.25 172.72 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2e6c484-b877-4b82-ab97-e7f5f540ac49")
-		(property "Reference" "TP?"
-			(at 100.33 172.7199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 100.33 173.9899 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 95.25 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a476c5a8-bf55-43fb-9cf5-df34997ea031")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "TP?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:GND")
 		(at 304.8 55.88 0)
 		(unit 1)
@@ -15032,85 +15584,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:GNDA")
-		(at 91.44 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6afbca0-838d-43b7-9dc7-06c70f5ad2b7")
-		(property "Reference" "#PWR?"
-			(at 97.79 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 95.25 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 91.44 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f7dca96-dfee-4e31-8017-de3aa2de14a6")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:+3.3V")
 		(at 304.8 43.18 0)
 		(unit 1)
@@ -15178,166 +15651,6 @@
 		)
 		(pin "1"
 			(uuid "54a83006-ec26-412b-8bf5-92ae8fda0f96")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:D_TVS")
-		(at 132.08 220.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7d007e9-f35f-4af4-a1e8-66c35867a7c8")
-		(property "Reference" "D?"
-			(at 134.62 219.7099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 134.62 222.2499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 132.08 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "afbfbac9-a98b-41a1-9d8b-f285e25df15a")
-		)
-		(pin "1"
-			(uuid "4dd85d58-c8df-443f-bfeb-42a06ee63d9b")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:GND")
-		(at 82.55 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bff7d9d1-2745-4418-8527-a91c84eff985")
-		(property "Reference" "#PWR?"
-			(at 82.55 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44c50bb3-0282-4ea5-afed-a67d65b5f421")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
@@ -15584,8 +15897,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:GND")
-		(at 82.55 227.33 0)
+		(lib_id "symbols:+12V")
+		(at 99.06 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15594,9 +15907,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cbf79964-24fe-4a5d-9220-69b8e5736b44")
+		(uuid "cb2083f9-bdca-4f2b-8c5f-5ee24fd9ba15")
 		(property "Reference" "#PWR?"
-			(at 82.55 233.68 0)
+			(at 99.06 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15606,8 +15919,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 82.55 232.41 0)
+		(property "Value" "+12V"
+			(at 99.06 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15617,7 +15930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 227.33 0)
+			(at 99.06 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15628,7 +15941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 227.33 0)
+			(at 99.06 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15638,8 +15951,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 227.33 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 99.06 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15650,7 +15963,244 @@
 			)
 		)
 		(pin "1"
-			(uuid "3728914c-32b4-4ce2-872b-c738390f42ae")
+			(uuid "38e39a01-5f67-4e7f-b9b8-7dd5eae010cf")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:+5VA")
+		(at 73.66 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cba22157-9faa-4c90-bcc7-3fc45d363d1a")
+		(property "Reference" "#PWR?"
+			(at 77.47 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 69.85 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 73.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da65b889-989f-4c24-8a40-e70061ddff7c")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:+5VA")
+		(at 91.44 46.99 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce682e2b-cb48-4b91-815e-b5d852d65894")
+		(property "Reference" "#PWR?"
+			(at 87.63 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5VA"
+			(at 95.25 46.9899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 91.44 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51c5d9a7-db57-48d9-bd4a-7fe12804806b")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:GNDA")
+		(at 73.66 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfae61eb-a770-4823-a5f3-ca9490676453")
+		(property "Reference" "#PWR?"
+			(at 67.31 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 69.85 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 73.66 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f201d444-6be8-400f-916e-79f1f338fc1b")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
@@ -15745,6 +16295,84 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:GND")
+		(at 60.96 203.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d25e3c7e-b522-48d1-b047-ee85ffedb61b")
+		(property "Reference" "#PWR?"
+			(at 60.96 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "779c81e8-7293-4228-962e-a3a6c11e2f70")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:R")
 		(at 400.05 124.46 90)
 		(unit 1)
@@ -15825,8 +16453,9 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:GNDA")
-		(at 132.08 226.06 0)
+		(lib_id "symbols:C")
+		(at 50.8 181.61 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15834,31 +16463,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d954bbe8-d9ac-4ad9-9bab-e2c4104fbda0")
-		(property "Reference" "#PWR?"
-			(at 132.08 232.41 0)
-			(hide yes)
+		(uuid "d724b733-e5b9-484a-8523-8b5f36ed8bf8")
+		(property "Reference" "C?"
+			(at 46.99 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 132.08 231.14 0)
+		(property "Value" "10u"
+			(at 46.99 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 226.06 0)
+			(at 49.8348 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15869,7 +16498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 226.06 0)
+			(at 50.8 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15879,8 +16508,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 132.08 226.06 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15891,12 +16520,96 @@
 			)
 		)
 		(pin "1"
-			(uuid "d2bbabcf-1164-4ff1-af8c-e2a0f4efc672")
+			(uuid "43419b39-34c1-495e-9105-6d5229d1a8df")
+		)
+		(pin "2"
+			(uuid "3bcaf8d8-bd73-4c59-a5b5-a55ce7a4c1ba")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "#PWR?")
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:C")
+		(at 99.06 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8c6764c-58d8-4f4c-a47b-5b2f06b72d3f")
+		(property "Reference" "C?"
+			(at 102.87 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 102.87 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.0252 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 99.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cc4e054-ca08-4b72-92d5-02866608d96d")
+		)
+		(pin "2"
+			(uuid "6e5b099a-6c70-4412-9267-9926a5e15241")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -16140,40 +16853,41 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:+3.3V")
-		(at 92.71 171.45 0)
+		(lib_id "symbols:C")
+		(at 102.87 234.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "f5f83db5-7703-434f-b60f-341739d1e697")
-		(property "Reference" "#PWR?"
-			(at 92.71 175.26 0)
-			(hide yes)
+		(uuid "ef533a2d-1d18-43ba-acc7-3b7cd8f5a21b")
+		(property "Reference" "C?"
+			(at 106.68 233.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 92.71 166.37 0)
+		(property "Value" "1u"
+			(at 106.68 236.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 171.45 0)
+			(at 103.8352 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16184,7 +16898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 171.45 0)
+			(at 102.87 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16194,8 +16908,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 171.45 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16206,7 +16920,248 @@
 			)
 		)
 		(pin "1"
-			(uuid "e1015d8e-2770-4927-867a-9a3acf13f451")
+			(uuid "17fb7559-1fa2-4b63-a475-fb640340cb9d")
+		)
+		(pin "2"
+			(uuid "050e0938-cdfa-4a33-903c-3d4132142707")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:GNDA")
+		(at 91.44 52.07 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7f5a209-16cc-4943-8907-e8429b21414c")
+		(property "Reference" "#PWR?"
+			(at 97.79 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 95.25 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 91.44 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16ddbc52-0559-4a1f-843e-d26a75722a1e")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:C")
+		(at 97.79 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbfe6567-098c-4344-8da5-fd324af3eb83")
+		(property "Reference" "C?"
+			(at 101.6 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 101.6 182.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.7552 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 97.79 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "26d0980e-161b-4c15-a6da-e48785061a6c")
+		)
+		(pin "2"
+			(uuid "cdac5ea6-032e-4fc3-86bc-df0529ac6e60")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:+3.3V")
+		(at 114.3 226.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd18de88-f8ba-4bdb-8bb6-29cfd9c38dc5")
+		(property "Reference" "#PWR?"
+			(at 114.3 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 114.3 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 114.3 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22e6412c-87e8-4616-a390-5ae5d593ed90")
 		)
 		(instances
 			(project "bmw-e36-abs-adapter"
