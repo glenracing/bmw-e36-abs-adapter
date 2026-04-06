@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "bmw-e36-abs-adapter") (type "KiCad") (uri "${KIPRJMOD}/bmw-e36-abs-adapter.pretty") (options "") (descr ""))
+)

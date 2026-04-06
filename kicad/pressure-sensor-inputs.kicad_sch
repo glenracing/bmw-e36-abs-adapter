@@ -878,7 +878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04bf78b4-e9bd-4c23-8377-de0396b36084")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 208.28 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -900,7 +900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.962 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -942,7 +942,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -960,7 +960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "475d9fa6-03a4-4ee5-a6a1-8fe899f20028")
-		(property "Reference" "TP?"
+		(property "Reference" "TP6"
 			(at 215.9 101.6 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -983,7 +983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 210.82 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1022,7 +1022,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "TP?")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -1040,7 +1040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5819b6ce-7084-4bc7-8167-5601c101f9d6")
-		(property "Reference" "D?"
+		(property "Reference" "D7"
 			(at 218.44 148.5899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1126,7 +1126,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "D?")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -1144,7 +1144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c02e9be-5911-4910-b0f3-856afc1ac7a1")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 208.28 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1166,7 +1166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.962 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -1208,7 +1208,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1226,7 +1226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "850b4464-1777-4d06-9d21-adf8449b7b17")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 200.66 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1246,7 +1246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.66 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -1288,7 +1288,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -1306,7 +1306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86db6548-ba88-46a7-b430-99dd15882667")
-		(property "Reference" "D?"
+		(property "Reference" "D6"
 			(at 218.44 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1392,7 +1392,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "D?")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -1410,7 +1410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89e3367b-4d7b-43ba-9c90-1f1743cb711f")
-		(property "Reference" "TP?"
+		(property "Reference" "TP7"
 			(at 215.9 138.43 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1433,7 +1433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 210.82 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -1472,7 +1472,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "TP?")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -1490,7 +1490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98162dc6-faed-4032-af9b-620f5b622c86")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 200.66 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1510,7 +1510,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.66 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -1552,7 +1552,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -1570,7 +1570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6bab70f-022e-40cb-b316-bc78975ba3c0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR034"
 			(at 205.74 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -1630,7 +1630,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "#PWR?")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1648,7 +1648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f93af6f9-b399-4e22-8c00-0c97aa112bf1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR035"
 			(at 205.74 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -1708,7 +1708,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/18849697-e921-4429-b50d-ca2a9ec17916"
-					(reference "#PWR?")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
