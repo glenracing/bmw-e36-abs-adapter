@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "BMW E36 ABS Adapter")
-		(date "2026-04-05")
+		(date "2026-04-06")
 		(company "Glen Racing")
 		(comment 1 "Ian Glen <ian@ianglen.me>")
 	)
@@ -895,6 +895,136 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "bmw-e36-abs-adapter:TLE42744DV33ATMA1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLE42744DV33ATMA1"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-tle42744d-v33-datasheet-en.pdf?fileId=8ac78c8c93dda25b019519be392c740c"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLE42744DV33ATMA1_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLE42744DV33ATMA1_1_0"
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 1.27 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5046,200 +5176,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:TLV73333PDBV"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV73333PDBV"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 0 8.255 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv733p.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "300mA LDO Regulator Fixed Positive Capacitor-Free"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TLV73333PDBV_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TLV73333PDBV_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "symbols:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -5464,6 +5400,16 @@
 		)
 		(uuid "7acae4f4-25cf-4b47-88ec-ff1db4c0806b")
 	)
+	(text "+5V RAIL\n1A MAX"
+		(exclude_from_sim no)
+		(at 95.25 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d0b2805-2b96-43b4-b821-aa9ad1bd194f")
+	)
 	(text "POWER\nLED"
 		(exclude_from_sim no)
 		(at 123.19 233.68 0)
@@ -5570,7 +5516,7 @@
 		)
 		(uuid "aad8274a-25cb-4fea-89a7-b3e386c9a913")
 	)
-	(text "3.3V MICROCONTROLLER SUPPLY\n100mA MAX"
+	(text "+3.3V RAIL\n400mA MAX"
 		(exclude_from_sim no)
 		(at 114.3 215.9 0)
 		(effects
@@ -5709,22 +5655,28 @@
 		(uuid "618d210e-6c0e-4b97-9541-d5f2748fcb9b")
 	)
 	(junction
-		(at 82.55 229.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64562893-138e-4f7c-bc25-e1b5cb884de2")
-	)
-	(junction
 		(at 87.63 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66dca11c-8f68-489d-9489-2c0fe3b2497c")
 	)
 	(junction
+		(at 92.71 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67d2173c-5588-423a-b32d-b5bbfb1d7bfd")
+	)
+	(junction
 		(at 91.44 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "690b9bc4-51f9-427f-b87e-278d8f609eba")
+	)
+	(junction
+		(at 102.87 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69c95277-7a5e-4d4e-aabe-561606371168")
 	)
 	(junction
 		(at 50.8 176.53)
@@ -5757,6 +5709,12 @@
 		(uuid "76f7f6ec-4fd6-4f43-bcb4-b5f027da8554")
 	)
 	(junction
+		(at 82.55 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aacf75a-0b22-4be6-9563-df471d5a70e0")
+	)
+	(junction
 		(at 328.93 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5773,12 +5731,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88a489af-3fa1-471e-a741-69fb03921707")
-	)
-	(junction
-		(at 82.55 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bf43f96-27b4-45b9-872f-3abadbf6e4d6")
 	)
 	(junction
 		(at 341.63 44.45)
@@ -5811,12 +5763,6 @@
 		(uuid "b70592e7-7927-4444-b8c1-fec9591baa4c")
 	)
 	(junction
-		(at 92.71 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c350ad49-534f-43b0-88db-acc6e30ea9de")
-	)
-	(junction
 		(at 127 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5845,12 +5791,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d949afc0-7eb2-41d7-a041-71c9c421fd26")
-	)
-	(junction
-		(at 102.87 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecf4cc5a-9efc-4938-bf7d-3347a1432aa4")
 	)
 	(no_connect
 		(at 123.19 67.31)
@@ -5966,7 +5906,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 240.03) (xy 82.55 240.03)
+			(xy 92.71 237.49) (xy 82.55 237.49)
 		)
 		(stroke
 			(width 0)
@@ -6146,7 +6086,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 240.03) (xy 92.71 241.3)
+			(xy 92.71 237.49) (xy 92.71 238.76)
 		)
 		(stroke
 			(width 0)
@@ -6206,7 +6146,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 240.03) (xy 82.55 238.76)
+			(xy 82.55 237.49) (xy 82.55 236.22)
 		)
 		(stroke
 			(width 0)
@@ -7116,7 +7056,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 227.33) (xy 102.87 231.14)
+			(xy 102.87 227.33) (xy 102.87 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7136,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 237.49) (xy 92.71 240.03)
+			(xy 92.71 236.22) (xy 92.71 237.49)
 		)
 		(stroke
 			(width 0)
@@ -7316,7 +7256,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 238.76) (xy 102.87 240.03)
+			(xy 102.87 236.22) (xy 102.87 237.49)
 		)
 		(stroke
 			(width 0)
@@ -7556,16 +7496,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 229.87) (xy 82.55 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c041e807-30b3-427c-b5de-3ccbe80e6c3f")
-	)
-	(wire
-		(pts
 			(xy 317.5 54.61) (xy 328.93 54.61)
 		)
 		(stroke
@@ -7746,7 +7676,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 229.87) (xy 82.55 231.14)
+			(xy 82.55 227.33) (xy 82.55 228.6)
 		)
 		(stroke
 			(width 0)
@@ -7766,7 +7696,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 240.03) (xy 102.87 240.03)
+			(xy 92.71 237.49) (xy 102.87 237.49)
 		)
 		(stroke
 			(width 0)
@@ -7923,16 +7853,6 @@
 			(type default)
 		)
 		(uuid "fcd582ae-4f69-4e69-bba6-0339f8d4a3d0")
-	)
-	(wire
-		(pts
-			(xy 82.55 229.87) (xy 82.55 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe9dd2cc-93cd-4c44-ac08-1cd8494bbcd8")
 	)
 	(wire
 		(pts
@@ -14468,7 +14388,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 92.71 241.3 0)
+		(at 92.71 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14479,7 +14399,7 @@
 		(fields_autoplaced yes)
 		(uuid "37292481-b08d-4a13-a0f2-ff20b9548e4c")
 		(property "Reference" "#PWR010"
-			(at 92.71 247.65 0)
+			(at 92.71 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14490,7 +14410,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 246.38 0)
+			(at 92.71 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14500,7 +14420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 241.3 0)
+			(at 92.71 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14511,7 +14431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 241.3 0)
+			(at 92.71 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14522,7 +14442,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 241.3 0)
+			(at 92.71 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14539,6 +14459,110 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:C")
+		(at 102.87 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "378dba7b-2c30-4633-9648-77c6e47d13b0")
+		(property "Reference" "C7"
+			(at 106.68 231.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 106.68 233.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 103.8352 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 102.87 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GRT31CR61H106KE01L"
+			(at 102.87 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e7fdc90-ca9b-471e-bc39-30fc0a3d1984")
+		)
+		(pin "2"
+			(uuid "cd733c4f-5de8-46a7-bd17-e9d5da98b681")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14643,6 +14667,111 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bmw-e36-abs-adapter:TLE42744DV33ATMA1")
+		(at 92.71 228.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aa21966-decd-4ccb-a339-ad316fff7dde")
+		(property "Reference" "U2"
+			(at 92.71 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLE42744DV33ATMA1"
+			(at 92.71 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 92.71 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-tle42744d-v33-datasheet-en.pdf?fileId=8ac78c8c93dda25b019519be392c740c"
+			(at 92.71 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 92.71 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "TLE42744DV33ATMA1"
+			(at 92.71 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ddfd8fa-2341-435a-b27c-80605b472ce3")
+		)
+		(pin "2"
+			(uuid "010a13bf-e785-4d9f-8b3f-2439ed05c2b8")
+		)
+		(pin "3"
+			(uuid "6ce5d4d5-7861-41ce-8ea9-1ff16b2e321d")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -16213,6 +16342,111 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
+		(at 82.55 232.41 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77312dcb-365b-4f7b-aec9-3d86399164aa")
+		(property "Reference" "C3"
+			(at 78.74 231.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 78.74 233.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 81.5848 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 82.55 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 82.55 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GRT31CR61H106KE01L"
+			(at 82.55 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21726a03-f03f-4c0a-b88e-c30fe4d6bfbc")
+		)
+		(pin "2"
+			(uuid "b70e3a0e-d25c-4045-9f8c-4c231fb2e0ea")
+		)
+		(instances
+			(project "bmw-e36-abs-adapter"
+				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:C")
 		(at 353.06 128.27 0)
 		(unit 1)
 		(body_style 1)
@@ -17770,110 +18004,6 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:C")
-		(at 82.55 234.95 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "a1d5526b-3626-4734-bc49-edb58cb4ee51")
-		(property "Reference" "C3"
-			(at 78.74 233.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 78.74 236.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 81.5848 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 82.55 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 82.55 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRT188R71E105KE13D"
-			(at 82.55 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0123eaed-c8f3-46a9-8dac-c5c57e19fa9d")
-		)
-		(pin "2"
-			(uuid "1ed3b10c-27d5-4df7-8b1f-77f5d1ff924e")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:TestPoint")
 		(at 107.95 226.06 0)
 		(unit 1)
@@ -17947,118 +18077,6 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:TLV73333PDBV")
-		(at 92.71 229.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a70ec997-ab07-4e7f-9497-be015529ec84")
-		(property "Reference" "U2"
-			(at 92.71 220.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV73333PQDBVRQ1"
-			(at 92.71 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 92.71 221.615 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv733p-q1.pdf"
-			(at 92.71 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "300mA Capacitor-Free Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 92.71 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 92.71 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "TLV73333PQDBVRQ1"
-			(at 92.71 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "eff94f42-df27-4484-ac13-ba59ea6b06bc")
-		)
-		(pin "3"
-			(uuid "104e2ee2-9f9b-45eb-8ab7-cb809d5715c5")
-		)
-		(pin "4"
-			(uuid "8dd89aa4-fabc-4581-99cf-3cce479d23e0")
-		)
-		(pin "2"
-			(uuid "736eb805-b6fb-4b3e-a2e7-2239a3424f09")
-		)
-		(pin "1"
-			(uuid "096aa9c5-7dbd-414b-b952-f76457d1948a")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -20185,110 +20203,6 @@
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "symbols:C")
-		(at 102.87 234.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "ef533a2d-1d18-43ba-acc7-3b7cd8f5a21b")
-		(property "Reference" "C7"
-			(at 106.68 233.6799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 106.68 236.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 103.8352 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 102.87 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 102.87 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "GRT188R71E105KE13D"
-			(at 102.87 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17fb7559-1fa2-4b63-a475-fb640340cb9d")
-		)
-		(pin "2"
-			(uuid "050e0938-cdfa-4a33-903c-3d4132142707")
-		)
-		(instances
-			(project "bmw-e36-abs-adapter"
-				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03"
-					(reference "C7")
 					(unit 1)
 				)
 			)

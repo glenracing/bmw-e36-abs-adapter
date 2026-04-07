@@ -6,7 +6,7 @@
 	(paper "B")
 	(title_block
 		(title "Pedal Travel Sensor Output")
-		(date "2026-04-05")
+		(date "2026-04-06")
 		(company "Glen Racing")
 		(comment 1 "Ian Glen <ian@ianglen.me>")
 	)
