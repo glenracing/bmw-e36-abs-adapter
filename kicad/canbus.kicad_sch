@@ -1745,7 +1745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "047c3b48-5815-484d-81db-bea05ccbd6bc")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 200.66 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -1805,7 +1805,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/1e118eea-b0b6-4052-9f03-bc9e02cc6f9e"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -1931,7 +1931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15e1cd3a-9374-4aed-98c0-996c4da4ae09")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 209.55 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -1991,7 +1991,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/1e118eea-b0b6-4052-9f03-bc9e02cc6f9e"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -2114,7 +2114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d7a6f59-934a-49a9-8fb9-4f4c6e0d87ef")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 200.66 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -2174,7 +2174,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/1e118eea-b0b6-4052-9f03-bc9e02cc6f9e"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2272,7 +2272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5704d1ab-8374-4590-b5d7-ab17b9d0293b")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 218.44 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -2333,7 +2333,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/1e118eea-b0b6-4052-9f03-bc9e02cc6f9e"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2534,7 +2534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2ae37fb-ddc7-4f0d-9b6c-72f90ccbaa93")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 209.55 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -2594,7 +2594,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/1e118eea-b0b6-4052-9f03-bc9e02cc6f9e"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)

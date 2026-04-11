@@ -2275,7 +2275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "234f8d65-0339-4d08-ac1e-6ac15afe9fbe")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 149.86 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -2335,7 +2335,7 @@
 		(instances
 			(project "bmw-e36-abs-adapter"
 				(path "/325be93f-b4a6-4f2b-83c3-2ccd33e5cc03/3e268bd5-2ae2-4112-b445-da0f11812250"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
